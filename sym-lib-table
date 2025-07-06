@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "DRV8316")(type "KiCad")(uri "${KIPRJMOD}/ComponentLibraries/ul_DRV8316RRGFR/KiCADv6/2025-07-02_07-25-23.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32H723VGH6")(type "KiCad")(uri "${KIPRJMOD}/ComponentLibraries/ul_STM32H723VGH6/KiCADv6/2025-07-02_14-17-07.kicad_sym")(options "")(descr ""))
+)
