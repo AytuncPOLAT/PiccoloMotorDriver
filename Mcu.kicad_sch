@@ -5455,6 +5455,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11aac09f-5a7b-41d3-91f4-0055face8ac3")
+	)
+	(wire
+		(pts
 			(xy 172.72 58.42) (xy 180.34 58.42)
 		)
 		(stroke
@@ -5472,6 +5482,16 @@
 			(type default)
 		)
 		(uuid "19a6c85d-67fc-424a-9c10-b8aa2016922a")
+	)
+	(wire
+		(pts
+			(xy 264.16 200.66) (xy 287.02 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19da62a9-161b-4e2f-8a07-447e3b6e121c")
 	)
 	(wire
 		(pts
@@ -5555,6 +5575,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 111.76) (xy 287.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23da005a-2553-43aa-9e4b-b5d3d8aa31a0")
+	)
+	(wire
+		(pts
 			(xy 215.9 58.42) (xy 224.79 58.42)
 		)
 		(stroke
@@ -5562,6 +5592,16 @@
 			(type default)
 		)
 		(uuid "2484821b-85ad-4915-a273-af6c697469b0")
+	)
+	(wire
+		(pts
+			(xy 264.16 152.4) (xy 287.02 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25df0f54-1f2e-4fe7-93d2-3011d7f753b6")
 	)
 	(wire
 		(pts
@@ -5592,6 +5632,16 @@
 			(type default)
 		)
 		(uuid "2635e302-0555-42c4-938f-7c5a12779d9d")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 203.2 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26985e30-8a61-4624-93dd-c2bd190a8a81")
 	)
 	(wire
 		(pts
@@ -5785,6 +5835,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 109.22) (xy 273.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bec4e9a-5a78-4af2-aa2d-59263637516e")
+	)
+	(wire
+		(pts
 			(xy 154.94 104.14) (xy 152.4 104.14)
 		)
 		(stroke
@@ -5902,6 +5962,16 @@
 			(type default)
 		)
 		(uuid "87122161-662d-44ab-b4d5-32d4f5eda78a")
+	)
+	(wire
+		(pts
+			(xy 193.04 132.08) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ed996e-986c-4e69-aa18-c00e3b51497d")
 	)
 	(wire
 		(pts
@@ -6042,6 +6112,16 @@
 			(type default)
 		)
 		(uuid "b5d3d8b0-6804-42f9-b177-f6bc47f52a9a")
+	)
+	(wire
+		(pts
+			(xy 264.16 124.46) (xy 273.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b734103d-3821-40af-a026-bb3e16ecb32f")
 	)
 	(wire
 		(pts
@@ -6285,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 198.12) (xy 273.05 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec65922d-8cfa-44ef-99eb-004af90ff1fd")
+	)
+	(wire
+		(pts
 			(xy 180.34 58.42) (xy 180.34 59.69)
 		)
 		(stroke
@@ -6305,6 +6395,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 167.64) (xy 273.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0977f3-bcc0-4fe2-8911-c02bc77d815e")
+	)
+	(wire
+		(pts
 			(xy 224.79 67.31) (xy 224.79 68.58)
 		)
 		(stroke
@@ -6315,7 +6415,7 @@
 	)
 	(global_label "~{SLEEP}"
 		(shape input)
-		(at 364.49 187.96 180)
+		(at 345.44 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6325,7 +6425,7 @@
 		)
 		(uuid "1003173a-da53-4dfe-b1ea-b72b516cf373")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.2712 187.8806 0)
+			(at 337.2212 162.4806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6437,7 @@
 	)
 	(global_label "DRV_SO_A"
 		(shape output)
-		(at 374.65 105.41 180)
+		(at 341.63 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6347,7 +6447,7 @@
 		)
 		(uuid "25889499-1ff3-4591-8466-0a2e520293fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.0445 105.3306 0)
+			(at 330.0245 135.8106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6459,7 @@
 	)
 	(global_label "DRV_OFF"
 		(shape input)
-		(at 375.92 190.5 180)
+		(at 347.98 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6369,7 +6469,7 @@
 		)
 		(uuid "26bce05f-7efc-47a9-ac82-8f3d0fa89b0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 365.4031 190.4206 0)
+			(at 337.4631 172.6406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,29 +6525,29 @@
 	)
 	(global_label "PWM_C_H"
 		(shape input)
-		(at 372.11 168.91 180)
+		(at 287.02 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4a6a96d6-6ce2-4831-ba4e-fe535e5f5350")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.9883 168.8306 0)
+			(at 298.7137 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PWM_B_L"
 		(shape input)
-		(at 375.92 161.29 180)
+		(at 180.34 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6457,7 +6557,29 @@
 		)
 		(uuid "560e2ad8-e922-480e-916d-4de160450aeb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 365.1007 161.2106 0)
+			(at 169.5207 134.5406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_CLK"
+		(shape input)
+		(at 300.99 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "578fdc88-92b0-4289-bcf2-bb005b5c812a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.7196 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6591,7 @@
 	)
 	(global_label "DRV_SPI_CLK"
 		(shape input)
-		(at 375.92 195.58 180)
+		(at 347.98 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6479,7 +6601,7 @@
 		)
 		(uuid "5c8b9ef2-64b5-42ca-9bb5-b19819ba64cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.2907 195.5006 0)
+			(at 333.3507 177.7206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6613,7 @@
 	)
 	(global_label "PWM_A_L"
 		(shape input)
-		(at 370.84 143.51 180)
+		(at 180.34 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6501,7 +6623,7 @@
 		)
 		(uuid "5cef8e48-be35-402e-86aa-672ca0570b7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.2021 143.4306 0)
+			(at 169.7021 129.4606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,9 +6633,53 @@
 			)
 		)
 	)
+	(global_label "ENC_MISO"
+		(shape input)
+		(at 287.02 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66a9d5ad-2720-4d6c-b358-6e0810fd7717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.7215 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-"
+		(shape input)
+		(at 332.74 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f938e61-dbca-4ab1-b6f8-81dacac3b4c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.5355 212.0106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRV_SPI_~{SCS}"
 		(shape input)
-		(at 375.92 217.17 180)
+		(at 347.98 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6523,7 +6689,7 @@
 		)
 		(uuid "7da342eb-9158-4196-be96-55f127159121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.1698 217.0906 0)
+			(at 333.2298 199.3106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6701,7 @@
 	)
 	(global_label "DRV_AN_REF"
 		(shape output)
-		(at 378.46 97.79 180)
+		(at 345.44 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6545,7 +6711,7 @@
 		)
 		(uuid "87279ed3-1efc-4527-b6f2-800156896706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.5564 97.7106 0)
+			(at 331.5364 128.1906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6723,7 @@
 	)
 	(global_label "DRV_SPI_SDO"
 		(shape output)
-		(at 375.92 200.66 180)
+		(at 347.98 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6567,7 +6733,7 @@
 		)
 		(uuid "93e1eb9e-32f2-444e-927b-894e8ab2f25f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.0488 200.5806 0)
+			(at 333.1088 182.8006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6745,7 @@
 	)
 	(global_label "PWM_A_H"
 		(shape input)
-		(at 369.57 135.89 180)
+		(at 193.04 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6589,7 +6755,7 @@
 		)
 		(uuid "985c2377-e458-4000-baf4-132b2af00e69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.6298 135.8106 0)
+			(at 182.0998 132.0006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6767,7 @@
 	)
 	(global_label "DRV_SO_C"
 		(shape output)
-		(at 373.38 124.46 180)
+		(at 340.36 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6611,7 +6777,7 @@
 		)
 		(uuid "9a021fbb-20ae-436f-a8ad-13a227b829b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.5931 124.3806 0)
+			(at 328.5731 154.8606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,9 +6809,53 @@
 			)
 		)
 	)
+	(global_label "ENC_CS"
+		(shape input)
+		(at 287.02 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a019909d-5c91-4625-b2d5-e89eb3972638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.8382 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485_DI"
+		(shape output)
+		(at 273.05 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7f406ec-e797-453e-b6d0-3f2bce5ce12f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.9856 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{FAULT}"
 		(shape output)
-		(at 375.92 185.42 180)
+		(at 347.98 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6655,19 +6865,85 @@
 		)
 		(uuid "bb9d1042-eea5-451f-ab57-125e9e7c895c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.0036 185.3406 0)
+			(at 340.0636 167.5606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 273.05 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf28dcbc-a038-4a15-9bfa-821376fb4998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.1714 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485_RO"
+		(shape input)
+		(at 287.02 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2c055f1-2154-4ad5-adaa-8f3ee2211f38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.6813 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PWM_B_H"
 		(shape input)
-		(at 368.3 152.4 180)
+		(at 273.05 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6a2796a-3015-4cd1-8c8a-d1196a27f74f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.7437 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_MOSI"
+		(shape input)
+		(at 300.99 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6675,43 +6951,87 @@
 			)
 			(justify right)
 		)
-		(uuid "c6a2796a-3015-4cd1-8c8a-d1196a27f74f")
+		(uuid "cb1c9b12-dd3d-4d52-b228-1e796e09c995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.1783 152.3206 0)
+			(at 288.6915 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB+"
+		(shape input)
+		(at 332.74 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddea0427-9e43-4c85-aa71-5c036a249001")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.5355 217.0906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PWM_C_L"
 		(shape input)
-		(at 369.57 173.99 180)
+		(at 273.05 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e3fa7dd1-17a9-4f62-b911-6b217fba23a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.7507 173.9106 0)
+			(at 284.4413 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape input)
+		(at 287.02 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5775b98-cd94-4728-a122-2490a4605773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.839 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DRV_SO_B"
 		(shape output)
-		(at 374.65 114.3 180)
+		(at 341.63 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6721,7 +7041,7 @@
 		)
 		(uuid "eb55883f-e52f-4f16-b055-f0a944cfc37a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.8631 114.2206 0)
+			(at 329.8431 144.7006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +7053,7 @@
 	)
 	(global_label "DRV_SPI_SDI"
 		(shape input)
-		(at 372.11 209.55 180)
+		(at 344.17 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6743,12 +7063,34 @@
 		)
 		(uuid "f44d91ad-d128-4353-aec2-a02ddec49418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.9645 209.4706 0)
+			(at 330.0245 191.6906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485_DE"
+		(shape input)
+		(at 273.05 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc1e1dcb-9ba7-49db-98f7-8d5c0dd85fc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.5298 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

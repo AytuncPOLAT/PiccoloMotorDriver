@@ -6,7 +6,7 @@
 	(paper "A5")
 	(lib_symbols)
 	(sheet
-		(at 134.62 20.32)
+		(at 130.81 19.05)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "054c4a57-633d-4e81-8316-0770c640503f")
 		(property "Sheetname" "IO"
-			(at 134.62 19.6084 0)
+			(at 130.81 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 134.62 45.0346 0)
+			(at 130.81 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 20.32)
+		(at 20.32 19.05)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "18750508-a205-46c6-b741-330bfb864ed8")
 		(property "Sheetname" "Mcu"
-			(at 24.13 19.6084 0)
+			(at 20.32 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Mcu.kicad_sch"
-			(at 24.13 45.0346 0)
+			(at 20.32 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 20.32)
+		(at 93.98 19.05)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "22171b38-2124-423e-bbc1-85af78cbc5a3")
 		(property "Sheetname" "DRV8316"
-			(at 97.79 19.6084 0)
+			(at 93.98 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "DRV.kicad_sch"
-			(at 97.79 45.0346 0)
+			(at 93.98 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,49 @@
 		)
 	)
 	(sheet
-		(at 60.96 20.32)
+		(at 167.64 19.05)
+		(size 24.13 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 203 0 255 1.0000)
+		)
+		(uuid "b5037c4c-8129-4a92-a0a6-b41a7050a316")
+		(property "Sheetname" "Encoder"
+			(at 167.64 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Encoder.kicad_sch"
+			(at 167.64 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PiccoloMotorDriver"
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 19.05)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +190,7 @@
 		)
 		(uuid "f67b4e05-78ff-4006-8d50-6371aa6c9980")
 		(property "Sheetname" "PowerManagement"
-			(at 60.96 19.6084 0)
+			(at 57.15 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerManagement.kicad_sch"
-			(at 60.96 45.0346 0)
+			(at 57.15 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
