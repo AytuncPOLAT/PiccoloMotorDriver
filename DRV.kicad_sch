@@ -4292,7 +4292,7 @@
 		(uuid "7ec3059e-349d-4b53-b38c-d7518ee6962c")
 	)
 	(junction
-		(at 86.36 92.71)
+		(at 41.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c85884f-23bf-4dd5-9de2-a3a1ba208342")
@@ -4397,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 86.36 102.87)
+			(xy 41.91 106.68) (xy 41.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 93.98) (xy 86.36 92.71)
+			(xy 41.91 99.06) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4667,7 +4667,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 92.71) (xy 86.36 92.71)
+			(xy 35.56 97.79) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 101.6 92.71)
+			(xy 101.6 104.14) (xy 101.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5007,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 88.9 92.71)
+			(xy 41.91 97.79) (xy 44.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5417,7 +5417,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 96.52 92.71)
+			(xy 101.6 97.79) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5747,7 +5747,7 @@
 	)
 	(global_label "DRV_SO_C"
 		(shape output)
-		(at 83.82 92.71 180)
+		(at 35.56 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5757,7 +5757,7 @@
 		)
 		(uuid "6cd56673-0853-403a-bb29-0d9300dccecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.0331 92.6306 0)
+			(at 23.7731 97.7106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10c393ac-6ab3-40cd-9552-94c7e3bbb041")
-		(property "Reference" "L?"
+		(property "Reference" "L2"
 			(at 185.42 86.36 0)
 			(effects
 				(font
@@ -6290,7 +6290,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "L?")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6305,7 +6305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "119a6d0e-c0f9-4534-8e5e-01386b6b71e0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 185.42 82.55 0)
 			(effects
 				(font
@@ -6354,7 +6354,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "256c80da-6528-403f-9ebb-e630e18d3000")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 41.91 86.36 0)
 			(effects
 				(font
@@ -6639,7 +6639,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -6875,7 +6875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a4f0ae2-f502-44f0-bbcb-14c0b7047d96")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 124.46 179.07 0)
 			(effects
 				(font
@@ -6924,7 +6924,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6939,7 +6939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eb4aec4-2de5-4f3f-bc95-a1b0eca83ca8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -6988,7 +6988,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -7511,7 +7511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d4e38b2-b5fc-4f7c-be01-46979418f6f5")
-		(property "Reference" "C?"
+		(property "Reference" "C27"
 			(at 43.434 73.152 0)
 			(effects
 				(font
@@ -7691,7 +7691,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "C?")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8122,7 +8122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "443d14ff-20a0-4c1d-ae7f-0d237a02c26f")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -8138,7 +8138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGF0040E-IPC_A"
+		(property "Footprint" "DRV8316:RGF0040E-IPC_A"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -8292,7 +8292,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8950,7 +8950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fa2a7b7-6149-4130-a24b-b80da6d6d7bb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 146.05 177.8 0)
 			(effects
 				(font
@@ -8999,7 +8999,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9202,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1kΩ")
-		(at 92.71 92.71 90)
+		(at 48.26 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9210,7 +9210,7 @@
 		(dnp no)
 		(uuid "7430bb87-777e-4b7c-9259-e2224a032e48")
 		(property "Reference" "R7"
-			(at 92.71 90.424 90)
+			(at 48.26 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9218,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 92.71 92.71 90)
+			(at 48.26 97.79 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9227,7 +9227,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 92.71 94.488 90)
+			(at 48.26 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9236,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9245,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9254,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9263,7 @@
 			)
 		)
 		(property "Stock" "27538425"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9272,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9281,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9290,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9299,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,7 +9308,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9317,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9326,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9335,7 @@
 			)
 		)
 		(property "Part" "0603WAF1001T5E"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +9344,7 @@
 			)
 		)
 		(property "Resistance" "1kΩ"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9353,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +9362,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,7 +9371,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9380,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,7 +9389,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9398,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 92.71 92.71 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,15 +9615,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 102.87 0)
+		(at 41.91 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "92bbab2e-4d0d-4f66-a8ba-7cb8f2d4644a")
-		(property "Reference" "#PWR?"
-			(at 86.36 109.22 0)
+		(property "Reference" "#PWR0110"
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 106.68 0)
+			(at 41.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 102.87 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +9649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 102.87 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +9658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 102.87 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +9671,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -10102,7 +10102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2b8d659-09b9-4b42-969b-b789688d85b8")
-		(property "Reference" "C?"
+		(property "Reference" "C37"
 			(at 136.398 60.96 90)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10519,7 +10519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b0c60a-416c-4210-81df-d6be31f790d4")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 191.77 142.2399 0)
 			(effects
 				(font
@@ -10575,7 +10575,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10811,7 +10811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be6f5f71-1481-41a2-803e-bec8e52b4da7")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 48.26 67.564 90)
 			(effects
 				(font
@@ -11017,7 +11017,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -11448,7 +11448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9eb581e-0331-4465-ad26-5d818d32685c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 130.81 60.96 0)
 			(effects
 				(font
@@ -11497,7 +11497,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11930,7 +11930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8dbf9e1-d086-4f02-9bfb-56136368f84e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -11979,7 +11979,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11995,7 +11995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dabfe265-5e9b-4bd9-8a1b-c05dbd24c054")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -12044,7 +12044,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -12060,7 +12060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5dfa60-8cc1-4b2f-aee2-4e6d3f0e31b4")
-		(property "Reference" "C?"
+		(property "Reference" "C38"
 			(at 187.96 68.5799 0)
 			(effects
 				(font
@@ -12240,7 +12240,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "C?")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -12248,7 +12248,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,1nF")
-		(at 86.36 97.79 0)
+		(at 41.91 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12256,7 +12256,7 @@
 		(dnp no)
 		(uuid "e1eecabf-bc27-44aa-94d0-ab88679e5325")
 		(property "Reference" "C6"
-			(at 87.884 96.012 0)
+			(at 43.434 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,7 +12265,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 88.138 97.79 0)
+			(at 43.688 102.87 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12274,7 +12274,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 84.582 97.79 90)
+			(at 40.132 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,7 +12283,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12292,7 +12292,7 @@
 			)
 		)
 		(property "Description" "50V 1nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12301,7 +12301,7 @@
 			)
 		)
 		(property "LCSC" "C1588"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,7 +12310,7 @@
 			)
 		)
 		(property "Stock" "6068974"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,7 +12319,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,7 +12328,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +12337,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12346,7 +12346,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,7 +12355,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12364,7 +12364,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12373,7 +12373,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,7 +12382,7 @@
 			)
 		)
 		(property "Part" "CL10B102KB8NNNC"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12391,7 +12391,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 88.138 99.568 0)
+			(at 43.688 104.648 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12400,7 +12400,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12409,7 @@
 			)
 		)
 		(property "Capacitance" "1nF"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,7 +12418,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 86.36 97.79 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,7 +12450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2187299-8c3b-4133-8d98-40027783038c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 66.04 97.79 0)
 			(effects
 				(font
@@ -12499,7 +12499,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e93e50-5c8c-4b30-8a00-81bd4385bd3d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -12564,7 +12564,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -13021,7 +13021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd86b735-8436-4ac7-aa61-21d2f4a3b47c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -13070,7 +13070,7 @@
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
