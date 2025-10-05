@@ -717,7 +717,7 @@
 			(type solid)
 		)
 		(fill
-			(color 11 255 0 1.0000)
+			(color 52 97 112 1.0000)
 		)
 		(uuid "054c4a57-633d-4e81-8316-0770c640503f")
 		(property "Sheetname" "IO"
@@ -759,7 +759,7 @@
 			(type solid)
 		)
 		(fill
-			(color 119 220 255 1.0000)
+			(color 52 97 112 1.0000)
 		)
 		(uuid "18750508-a205-46c6-b741-330bfb864ed8")
 		(property "Sheetname" "Mcu"
@@ -801,7 +801,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 195 0 1.0000)
+			(color 52 97 112 1.0000)
 		)
 		(uuid "22171b38-2124-423e-bbc1-85af78cbc5a3")
 		(property "Sheetname" "DRV8316"
@@ -843,7 +843,7 @@
 			(type solid)
 		)
 		(fill
-			(color 203 0 255 1.0000)
+			(color 52 97 112 1.0000)
 		)
 		(uuid "b5037c4c-8129-4a92-a0a6-b41a7050a316")
 		(property "Sheetname" "Encoder"
@@ -885,7 +885,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 88 0 1.0000)
+			(color 52 97 112 1.0000)
 		)
 		(uuid "f67b4e05-78ff-4006-8d50-6371aa6c9980")
 		(property "Sheetname" "PowerManagement"
