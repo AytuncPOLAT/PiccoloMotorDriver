@@ -4,4 +4,5 @@
   (lib (name "STM32H723VGH6")(type "KiCad")(uri "${KIPRJMOD}/ComponentLibraries/ul_STM32H723VGH6/KiCADv6/2025-07-02_14-17-07.kicad_sym")(options "")(descr ""))
   (lib (name "2026-08-10_19-21-26")(type "KiCad")(uri "${KIPRJMOD}/ComponentLibraries/ul_DRV8323HRTAR/KiCADv6/2026-08-10_19-21-26.kicad_sym")(options "")(descr ""))
   (lib (name "2026-08-10_19-26-15")(type "KiCad")(uri "${KIPRJMOD}/ComponentLibraries/ul_STM32H723VGT6/KiCADv6/2026-08-10_19-26-15.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-08-11_09-32-17")(type "KiCad")(uri "${KIPRJMOD}/ComponentLibraries/ul_DRV8353SRTAR/KiCADv6/2026-08-11_09-32-17.kicad_sym")(options "")(descr ""))
 )

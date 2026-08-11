@@ -521,192 +521,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NUP2105L_1"
 			(pin_names
 				(hide yes)
@@ -3612,6 +3426,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_DIP_x02"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x02"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x02_0_0"
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -3981,7 +4023,7 @@
 	)
 	(text "DEBUG_UART"
 		(exclude_from_sim no)
-		(at 263.398 139.446 0)
+		(at 254.508 88.392 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3993,7 +4035,7 @@
 	)
 	(text "SWD"
 		(exclude_from_sim no)
-		(at 279.908 79.248 0)
+		(at 262.636 70.612 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4095,6 +4137,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 35.56) (xy 109.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008ede48-7cb3-4daa-88d2-c44004da845c")
+	)
+	(wire
+		(pts
 			(xy 52.07 33.02) (xy 52.07 34.29)
 		)
 		(stroke
@@ -4165,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 40.64) (xy 74.93 49.53)
+			(xy 74.93 45.72) (xy 74.93 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4195,6 +4247,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 17.78) (xy 109.22 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2100e33d-146b-44c9-9dad-db2728dff026")
+	)
+	(wire
+		(pts
 			(xy 248.92 63.5) (xy 257.81 63.5)
 		)
 		(stroke
@@ -4215,16 +4277,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 30.48) (xy 180.34 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2287a536-343a-4f97-93a3-752eb85096be")
-	)
-	(wire
-		(pts
 			(xy 57.15 54.61) (xy 57.15 59.69)
 		)
 		(stroke
@@ -4242,16 +4294,6 @@
 			(type default)
 		)
 		(uuid "25ca0ed6-d10e-4299-b49b-7ee411823409")
-	)
-	(wire
-		(pts
-			(xy 69.85 33.02) (xy 69.85 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28784923-0c72-470a-85f7-f1e1b2762299")
 	)
 	(wire
 		(pts
@@ -4285,13 +4327,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 52.07) (xy 175.26 40.64)
+			(xy 74.93 38.1) (xy 74.93 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "334f4674-580c-4852-86e0-611929727236")
+		(uuid "35a620f6-342c-489c-ba7a-acce51395072")
 	)
 	(wire
 		(pts
@@ -4425,16 +4467,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 33.02) (xy 180.34 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ace72d-444c-4815-b302-909ce03f3d1a")
-	)
-	(wire
-		(pts
 			(xy 73.66 118.11) (xy 73.66 115.57)
 		)
 		(stroke
@@ -4555,6 +4587,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 15.24) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711b1e4d-7a63-403a-8636-8e5eb6c54e40")
+	)
+	(wire
+		(pts
 			(xy 133.35 49.53) (xy 134.62 49.53)
 		)
 		(stroke
@@ -4605,13 +4647,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 33.02) (xy 175.26 30.48)
+			(xy 109.22 35.56) (xy 109.22 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83e561fa-8810-43e5-a0b9-ef852be23577")
+		(uuid "822c8bbf-e6a1-468a-b37d-a398e2033454")
+	)
+	(wire
+		(pts
+			(xy 106.68 15.24) (xy 69.85 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83804857-6664-4f0f-8965-264a9dd01dc5")
 	)
 	(wire
 		(pts
@@ -4685,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 35.56) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab83390-60e0-47c4-a777-39bb6437119c")
+	)
+	(wire
+		(pts
 			(xy 195.58 54.61) (xy 199.39 54.61)
 		)
 		(stroke
@@ -4712,6 +4774,16 @@
 			(type default)
 		)
 		(uuid "9e79420c-aa6b-423e-8d0d-161776e55d54")
+	)
+	(wire
+		(pts
+			(xy 109.22 15.24) (xy 180.34 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa47e6b-5478-4588-83c4-d30e84d3c868")
 	)
 	(wire
 		(pts
@@ -4815,6 +4887,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 15.24) (xy 180.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d0487c-28ea-47fa-b6a9-b178efdab7bf")
+	)
+	(wire
+		(pts
 			(xy 48.26 111.76) (xy 57.15 111.76)
 		)
 		(stroke
@@ -4822,16 +4904,6 @@
 			(type default)
 		)
 		(uuid "bc7d3e06-72e4-463f-a152-50a408a7723e")
-	)
-	(wire
-		(pts
-			(xy 69.85 30.48) (xy 74.93 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbee57e-15ac-4064-bee2-c0acce200ac8")
 	)
 	(wire
 		(pts
@@ -4845,13 +4917,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 33.02) (xy 74.93 30.48)
+			(xy 175.26 35.56) (xy 175.26 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c35b5051-8397-444c-833d-85ed7f427f70")
+		(uuid "c274faaf-7d7d-4a88-b5bf-59025b4e2cc9")
 	)
 	(wire
 		(pts
@@ -4895,6 +4967,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 35.56) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6f0868-3609-491d-bc01-aa43582cfa82")
+	)
+	(wire
+		(pts
 			(xy 242.57 45.72) (xy 257.81 45.72)
 		)
 		(stroke
@@ -4932,16 +5014,6 @@
 			(type default)
 		)
 		(uuid "d55aaf10-9e01-44e1-b34d-0970ac80cc7b")
-	)
-	(wire
-		(pts
-			(xy 69.85 52.07) (xy 69.85 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da238d2a-8e14-4b9c-afa2-77a5fe1050cf")
 	)
 	(wire
 		(pts
@@ -5112,6 +5184,16 @@
 			(type default)
 		)
 		(uuid "f0c85b8a-e8c8-4308-9ee1-8ade09b2c0ce")
+	)
+	(wire
+		(pts
+			(xy 106.68 17.78) (xy 106.68 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f4a03b-25b5-4b8f-8854-833c21e6df97")
 	)
 	(wire
 		(pts
@@ -5708,7 +5790,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,120Ω")
-		(at 74.93 36.83 0)
+		(at 74.93 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5717,7 +5799,7 @@
 		(fields_autoplaced yes)
 		(uuid "06f50c17-9a9d-46d6-ad60-015db694b2bb")
 		(property "Reference" "R8"
-			(at 77.47 36.8299 0)
+			(at 77.47 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5808,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 74.93 36.83 90)
+			(at 74.93 41.91 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5735,7 +5817,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 73.152 36.83 90)
+			(at 73.152 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1200T5E_C22787.pdf"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5835,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 120Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5844,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5853,7 @@
 			)
 		)
 		(property "Stock" "1670032"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5862,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5871,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5880,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5889,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5898,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5907,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5916,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5925,7 @@
 			)
 		)
 		(property "Part" "0603WAF1200T5E"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5934,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5943,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5952,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5961,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5970,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5979,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +5988,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 74.93 36.83 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,75 +6006,6 @@
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/054c4a57-633d-4e81-8316-0770c640503f"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 69.85 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ea8d81a-a8b4-46fb-9e48-d3a04f7339da")
-		(property "Reference" "JP1"
-			(at 65.532 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "120R Load"
-			(at 67.564 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "029e6fbc-ab82-434c-99a8-a920fbceada7")
-		)
-		(pin "1"
-			(uuid "80e9e83c-5b49-400b-8c97-78e6f6ba4f60")
-		)
-		(instances
-			(project "PiccoloMotorDriver"
-				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/054c4a57-633d-4e81-8316-0770c640503f"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7280,6 +7293,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DIP_x02")
+		(at 106.68 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98a49b2a-fe64-405a-a185-4b3cb84c9cc8")
+		(property "Reference" "SW1"
+			(at 113.03 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_DIP_x02"
+			(at 113.03 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0120d55-7a8a-4998-9f5a-b60c0d7fa7bb")
+		)
+		(pin "1"
+			(uuid "9aa310f4-f953-454d-98df-d8afb6384a3a")
+		)
+		(pin "4"
+			(uuid "85e3f3aa-9228-4fb4-8cb2-40edfa8bd55e")
+		)
+		(pin "2"
+			(uuid "6347b44f-8149-4148-8cf7-f00010788d5a")
+		)
+		(instances
+			(project "PiccoloMotorDriver"
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/054c4a57-633d-4e81-8316-0770c640503f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
 		(at 52.07 29.21 0)
 		(mirror y)
@@ -7799,75 +7888,6 @@
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/054c4a57-633d-4e81-8316-0770c640503f"
 					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 175.26 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d35b1a52-9472-40e1-b487-e7b8eacf9c1f")
-		(property "Reference" "JP2"
-			(at 170.942 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "120R Load"
-			(at 172.974 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07487c60-d775-44d4-a44d-c012fff8f802")
-		)
-		(pin "1"
-			(uuid "4bbc7fd8-f75d-40ea-aaae-8ee89c7c6f56")
-		)
-		(instances
-			(project "PiccoloMotorDriver"
-				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/054c4a57-633d-4e81-8316-0770c640503f"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
