@@ -642,7 +642,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
 					(reference "FID3")
 					(unit 1)
@@ -772,7 +772,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
 					(reference "FID2")
 					(unit 1)
@@ -838,7 +838,7 @@
 			(uuid "b7ca8caf-3ef3-4b04-9bb0-d5ce74a97a68")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
 					(reference "H1")
 					(unit 1)
@@ -902,7 +902,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
 					(reference "FID1")
 					(unit 1)
@@ -1098,6 +1098,48 @@
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 72.39)
+		(size 24.13 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 52 97 112 1.0000)
+		)
+		(uuid "7be09983-144f-4bac-af55-89c406995975")
+		(property "Sheetname" "Inverter"
+			(at 120.65 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRV.kicad_sch"
+			(at 120.65 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PiccoloMotorDriver"
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
+					(page "6")
 				)
 			)
 		)

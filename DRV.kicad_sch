@@ -5,6 +5,874 @@
 	(uuid "406ce3aa-a11b-491c-bbc4-1a54f41c1852")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2026-08-10_19-21-26:DRV8323HRTAR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DRV8323HRTAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RTA0040B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/drv8323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DRV8323HRTAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RTA0040B RTA0040B_NV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8323HRTAR_0_1"
+				(polyline
+					(pts
+						(xy -20.32 66.04) (xy -20.32 -66.04)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -20.32 -66.04) (xy 20.32 -66.04)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 66.04) (xy -20.32 66.04)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -66.04) (xy 20.32 66.04)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -25.4 60.96 0)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 53.34 0)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 48.26 0)
+					(length 5.08)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 40.64 0)
+					(length 5.08)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 33.02 0)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 25.4 0)
+					(length 5.08)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 20.32 0)
+					(length 5.08)
+					(name "INHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 17.78 0)
+					(length 5.08)
+					(name "INLA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 12.7 0)
+					(length 5.08)
+					(name "INHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 10.16 0)
+					(length 5.08)
+					(name "INLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 5.08 0)
+					(length 5.08)
+					(name "INHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 2.54 0)
+					(length 5.08)
+					(name "INLC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -2.54 0)
+					(length 5.08)
+					(name "MODE_SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -7.62 0)
+					(length 5.08)
+					(name "IDRIVE_SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -12.7 0)
+					(length 5.08)
+					(name "VDS_SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -17.78 0)
+					(length 5.08)
+					(name "GAIN_SCS_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -22.86 0)
+					(length 5.08)
+					(name "CAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -25.4 -30.48 0)
+					(length 5.08)
+					(name "FAULT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -38.1 0)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -45.72 0)
+					(length 5.08)
+					(name "SOC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -50.8 0)
+					(length 5.08)
+					(name "SOB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -55.88 0)
+					(length 5.08)
+					(name "SOA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 60.96 180)
+					(length 5.08)
+					(name "VDRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 55.88 180)
+					(length 5.08)
+					(name "GHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 50.8 180)
+					(length 5.08)
+					(name "SHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 45.72 180)
+					(length 5.08)
+					(name "GLA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 35.56 180)
+					(length 5.08)
+					(name "GHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 30.48 180)
+					(length 5.08)
+					(name "SHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 25.4 180)
+					(length 5.08)
+					(name "GLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 15.24 180)
+					(length 5.08)
+					(name "GHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 10.16 180)
+					(length 5.08)
+					(name "SHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 5.08 180)
+					(length 5.08)
+					(name "GLC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "SNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -22.86 180)
+					(length 5.08)
+					(name "SPB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -33.02 180)
+					(length 5.08)
+					(name "SNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -38.1 180)
+					(length 5.08)
+					(name "SPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -48.26 180)
+					(length 5.08)
+					(name "SNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -53.34 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -58.42 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -63.5 180)
+					(length 5.08)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016)
@@ -5977,12 +6845,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "c866d6b6-b93b-4ab6-a003-ab3b0c6d8f06")
+			(uuid "fd0e7214-f861-4dcf-9d49-25c6785a5e20")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6195,15 +7067,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "60d89dac-6eaa-4c20-b6ed-07608fecbc32")
+			(uuid "cba815d9-53a1-40dd-a4e5-f571fec422c8")
 		)
 		(pin "1"
-			(uuid "ad6eb086-3ff8-4949-a82b-1c005e6561c1")
+			(uuid "f3ebba2a-533d-4380-ba78-5a6cb8016299")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R31")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -6416,15 +7292,210 @@
 			)
 		)
 		(pin "2"
-			(uuid "99bcfe66-0e47-4053-acda-1a67626b30c6")
+			(uuid "db09ca98-9e55-4203-afce-e21920573b8b")
 		)
 		(pin "1"
-			(uuid "689fd66f-7751-42a3-adb9-313d8da50c21")
+			(uuid "72868bab-50f4-43e7-a60f-a4ddeaf45f9d")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-08-10_19-21-26:DRV8323HRTAR")
+		(at 228.6 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa143d4-4137-4968-a406-ffb626623ee4")
+		(property "Reference" "U10"
+			(at 228.6 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DRV8323HRTAR"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RTA0040B"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/drv8323"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "7dce6430-5760-4c9a-a3f7-a98b7a6b8a29")
+		)
+		(pin "10"
+			(uuid "b1b825e2-b8f5-4630-9402-8ce6dab587e2")
+		)
+		(pin "28"
+			(uuid "a15bfdc9-2812-46e2-9e36-aa5d22ceed35")
+		)
+		(pin "39"
+			(uuid "bfc5ec46-7055-4bcf-aa6a-6177c2477252")
+		)
+		(pin "40"
+			(uuid "969af285-c379-4bd7-b1e7-bde706d6f43f")
+		)
+		(pin "18"
+			(uuid "2cbc0656-f799-4316-a8ee-5e0416f0c610")
+		)
+		(pin "26"
+			(uuid "b77b808b-4f38-4a44-8605-617547823c41")
+		)
+		(pin "4"
+			(uuid "2d3104e7-c1bd-41a6-a011-1a2fefb5c8ed")
+		)
+		(pin "1"
+			(uuid "5254266e-4052-44f5-8493-3cc895ca247e")
+		)
+		(pin "35"
+			(uuid "d52f4718-7984-46ca-bfeb-9d9a5bdb253d")
+		)
+		(pin "16"
+			(uuid "2e05a021-5143-4634-b0ef-31f62abbb2ca")
+		)
+		(pin "19"
+			(uuid "75e8db61-03be-4606-a48c-93f5e287b731")
+		)
+		(pin "32"
+			(uuid "b92d133c-9947-4126-899d-86c29924d540")
+		)
+		(pin "31"
+			(uuid "5fdab2ea-f749-4e4c-a3bf-46327ed20f3a")
+		)
+		(pin "8"
+			(uuid "809ce633-26f5-4f80-a2ee-8635a2e8e54f")
+		)
+		(pin "14"
+			(uuid "22379e27-508d-4204-9d43-776afe1b82b3")
+		)
+		(pin "41"
+			(uuid "c343e588-66b6-4fc7-9141-296443e295ab")
+		)
+		(pin "30"
+			(uuid "1b2d9eaa-85ef-4c49-96fa-10a13ffdee79")
+		)
+		(pin "24"
+			(uuid "cd7f2d93-4fda-4453-b42f-afe287437f33")
+		)
+		(pin "22"
+			(uuid "71f63f38-735f-4609-b624-f9e5a734f1e3")
+		)
+		(pin "38"
+			(uuid "2c0b7b1d-87b1-4f1f-8dd6-7c1a94a3a2c7")
+		)
+		(pin "11"
+			(uuid "a3e2db59-a9d8-4755-8639-7223015cfd5d")
+		)
+		(pin "36"
+			(uuid "18cf8584-1342-4f93-b151-52d5c3844612")
+		)
+		(pin "17"
+			(uuid "70ed159b-105c-4909-96ce-1e832735811c")
+		)
+		(pin "27"
+			(uuid "4d9f02e6-8898-4731-b382-8bdf17fc933a")
+		)
+		(pin "9"
+			(uuid "b98b6fe2-5d95-47bb-8d71-64378463ffd4")
+		)
+		(pin "37"
+			(uuid "addc01be-d3cc-4590-ac7b-01d87eb6dd30")
+		)
+		(pin "13"
+			(uuid "f1ac3f20-a737-4bc0-aae1-8c2836842985")
+		)
+		(pin "25"
+			(uuid "a296437e-c74f-4956-b957-82a9111f85ec")
+		)
+		(pin "33"
+			(uuid "af2a2a1f-f5ea-4f35-8104-c212b623b3b1")
+		)
+		(pin "7"
+			(uuid "83f1afd8-a7c7-4359-8f7a-df326bc4ae70")
+		)
+		(pin "5"
+			(uuid "4eadfd24-d1a1-4260-8760-95af0c4923db")
+		)
+		(pin "20"
+			(uuid "2afb4fe9-50f7-4c4f-b14c-28ab67a8c9ea")
+		)
+		(pin "29"
+			(uuid "5643e08a-9a22-42d6-ba0c-7ca56029d997")
+		)
+		(pin "21"
+			(uuid "ed88c524-44e7-4386-9e0a-74271c84b464")
+		)
+		(pin "2"
+			(uuid "1a0dcb05-966e-4675-b94b-f990ecd5abc8")
+		)
+		(pin "3"
+			(uuid "de79d4b5-d6e2-4fdc-8aee-0f67a5746203")
+		)
+		(pin "34"
+			(uuid "ba4a9cc6-8244-42d5-b58a-dac7471f5a3d")
+		)
+		(pin "6"
+			(uuid "b03d5f7b-7e9f-4c9d-a5c4-6847a4919c8f")
+		)
+		(pin "12"
+			(uuid "a7235422-dd60-418b-8755-42d6d1afc5f1")
+		)
+		(pin "15"
+			(uuid "51c0f32f-767e-409b-b74e-bf199b516e06")
+		)
+		(instances
+			(project "PiccoloMotorDriver"
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6483,12 +7554,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "802880a4-c5c3-4ca1-ae67-c7ddd3eb7acd")
+			(uuid "b7268dfd-7bba-4fd6-bea7-a48592f2a016")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6549,12 +7624,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "79f14eda-4e60-4baa-899e-30999f2f15bc")
+			(uuid "8a943a34-f7de-401e-a5df-aec7bd48824c")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "TP7")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -6767,15 +7846,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "40dbe315-7519-42a9-ac64-b1a96979cc56")
+			(uuid "37b9fa45-26cc-4b64-8a5c-5dae22f6312b")
 		)
 		(pin "1"
-			(uuid "02be0a48-47a0-43e6-a13f-12f94d5c641c")
+			(uuid "eddbe0d9-4060-41f8-ac39-618c6df5d10a")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -6834,12 +7917,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea19b9f0-a83d-4170-a05c-ad7548eb3dba")
+			(uuid "210f4dd9-bd38-4452-984a-a0aab9fc95ef")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7052,15 +8139,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "825a4d16-c1a7-4a00-9f0e-1ef9ef016aaa")
+			(uuid "0c7e418d-aa2c-4afc-8ea2-c8cb41068cbb")
 		)
 		(pin "1"
-			(uuid "cd58fbb0-8523-4167-8f96-74a6e86e07ee")
+			(uuid "7125c8f0-bc93-4858-9391-5dd9885ed23f")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R18")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -7119,12 +8210,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "276803fc-2521-44f8-978b-3d6973ce29c2")
+			(uuid "f4809cc8-cd18-481a-88e5-36f5d605f551")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7183,12 +8278,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "53a613e8-2977-48e4-a14a-737078c7d555")
+			(uuid "1a0efbc5-8fac-4dbf-9c99-578debcc5b79")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7401,15 +8500,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "ff271fce-134a-4bc5-bd26-71bf14d5a0d8")
+			(uuid "a075548d-6826-40ca-83c7-965b7fd01662")
 		)
 		(pin "1"
-			(uuid "4f0a3e11-6c1a-4246-82d2-a1d4018c75fc")
+			(uuid "122d233e-51b4-4434-939d-60ea4a654fae")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -7622,15 +8725,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "94537ece-4a8e-4aac-91e4-0d350bc54fef")
+			(uuid "71a9a812-5bcd-4854-85a8-8d5d1857fa2e")
 		)
 		(pin "1"
-			(uuid "33ed5bf3-3ead-4f33-bef7-c95edf85f1a8")
+			(uuid "42fa641b-0b5a-44ac-9517-1c9ac3b09109")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -7817,15 +8924,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "513d5cd9-8df8-4a75-8787-559b05012699")
+			(uuid "6c294ff7-3f5f-4677-a401-032d5bc25060")
 		)
 		(pin "2"
-			(uuid "1720ed88-471a-4651-a5b9-5a1727f09694")
+			(uuid "a04f4ae9-0f40-4e14-a382-033be806e5e0")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C39")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -7841,7 +8952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b067f4f-a0e9-4dc3-bc65-bf7e3c71d1e3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR075"
 			(at 154.94 35.56 0)
 			(effects
 				(font
@@ -7886,12 +8997,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "78adaab7-2f51-4e7c-892a-bedd0a1fe926")
+			(uuid "0fb2770c-179c-4543-84e0-427d0636e5ea")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "#PWR019")
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8078,15 +9193,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ea66b57-c572-47b9-bcfb-ee3f99eb6664")
+			(uuid "a0a36ef4-6c20-45df-9998-770041632f45")
 		)
 		(pin "2"
-			(uuid "893126ac-7428-441a-93a3-00753f9995a3")
+			(uuid "e0affd54-aa9d-4595-8ad0-7c06cead4875")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C27")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8299,15 +9418,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2fbbe82b-1c2a-4b80-808b-08c070667c11")
+			(uuid "ea0bdabb-79c5-455b-b5cb-70f6ff9186bc")
 		)
 		(pin "1"
-			(uuid "6d58641b-f9cb-48ef-adfc-fc7842058d1a")
+			(uuid "276b1870-ecc5-4ed1-b44f-e983b86c7455")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -8494,15 +9617,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "5cfc6aea-7a29-4d04-b33e-98d518533aa5")
+			(uuid "63b547eb-32ad-4bc2-9132-db98635699a0")
 		)
 		(pin "2"
-			(uuid "3b8754f8-a893-4988-b880-c1aaa6f649a2")
+			(uuid "1eb9ec97-21b9-466d-a7b3-1dc0d4a27fe3")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8562,132 +9689,136 @@
 			)
 		)
 		(pin "1"
-			(uuid "57705a3b-823f-4e3e-89ca-8aedc3091d66")
+			(uuid "1ce22407-b1e1-443b-804c-ff05160eed39")
 		)
 		(pin "10"
-			(uuid "02d68326-62a3-4477-a85f-568b80e6b39c")
+			(uuid "ff38001e-8775-4cee-a57c-798a7d30b906")
 		)
 		(pin "11"
-			(uuid "9037ff56-3d05-49ed-8d5c-2a4c04dfc225")
+			(uuid "b7785ff3-d36d-4cf5-b7e3-233e9792b958")
 		)
 		(pin "12"
-			(uuid "5448162f-f80b-4c92-816b-5bc4fbcc3ead")
+			(uuid "93399f8c-be98-4c19-b0bb-0e6f2222b1a6")
 		)
 		(pin "13"
-			(uuid "2388870f-6a54-4073-864a-7f45e0725712")
+			(uuid "a3a72fd1-1039-4f51-bc6f-3c56568b61b6")
 		)
 		(pin "14"
-			(uuid "6a3cf4c6-2ad9-4394-b8ad-04fa4d2c9d3c")
+			(uuid "c6d6829f-39bb-4aa1-a4fd-dcaa128e956c")
 		)
 		(pin "15"
-			(uuid "94c4ff05-afa4-449e-b133-41974f026fd7")
+			(uuid "b8c48efb-aa66-4fce-b5e5-5a4aff11c2f1")
 		)
 		(pin "16"
-			(uuid "4a9f7a82-ad5d-4a1d-bd8b-1670e758f3a7")
+			(uuid "4b559341-cca0-4eeb-969b-aaf1d701dc6f")
 		)
 		(pin "17"
-			(uuid "fa5f618c-263e-46d1-b43f-932d945125ac")
+			(uuid "bc67e411-7485-4248-b686-ded968f96628")
 		)
 		(pin "18"
-			(uuid "917ef983-298d-4365-99c7-85a91b2e30c2")
+			(uuid "5a24cb63-2469-49e0-b8ed-6aaca23ffab3")
 		)
 		(pin "19"
-			(uuid "19b916d4-aeaa-4b43-99b9-7ba94e757eaa")
+			(uuid "82812f78-68e0-47a2-ad2d-2b545691dc98")
 		)
 		(pin "2"
-			(uuid "d4c122fd-2245-4242-b337-c57f53c112f5")
+			(uuid "8eb6bf09-fcbd-4ef8-aa57-f43cffb59baa")
 		)
 		(pin "20"
-			(uuid "978dc660-6a10-460d-8139-0802aa2250a2")
+			(uuid "48ffd036-4eab-48c4-8f4e-05475b544518")
 		)
 		(pin "21"
-			(uuid "bf56f930-bdac-4322-8cf5-71456fe53f4d")
+			(uuid "59374a3a-4544-4875-84cc-d92c0142f158")
 		)
 		(pin "22"
-			(uuid "ab65d484-ddd7-4143-b271-7b3a4a68862b")
+			(uuid "a539ea0b-ac6a-46ca-af49-c8b2e4d91fd9")
 		)
 		(pin "23"
-			(uuid "2972bd0b-c303-4792-a9d1-3d583b9868e4")
+			(uuid "2a60bb06-803b-4fa4-b712-83797a7c20fe")
 		)
 		(pin "24"
-			(uuid "ffbb05fa-09ff-4594-b859-6e16e3935c27")
+			(uuid "ee200c2c-aebf-4b34-9668-6c862943ef9d")
 		)
 		(pin "25"
-			(uuid "070ea463-83a1-46e3-b53f-03b7b7c7d728")
+			(uuid "bae6db3b-7ca6-4028-a522-69cd96260ef9")
 		)
 		(pin "26"
-			(uuid "ac640d30-8a79-4d79-bbe6-d0de8326e8c2")
+			(uuid "8a5327b4-3d8f-45c0-b54e-ff968147177a")
 		)
 		(pin "27"
-			(uuid "cddf5e97-182c-4ee3-8289-8c2d0beacb12")
+			(uuid "85f2d627-053a-489d-b82c-5b120dc68a90")
 		)
 		(pin "28"
-			(uuid "94f17683-622a-46d4-a41d-db7f86d0e6f2")
+			(uuid "c2519a6c-a440-418f-afb8-0ff722fc920e")
 		)
 		(pin "29"
-			(uuid "7cf13e6d-a291-4c6b-98a9-27deb5f6a7de")
+			(uuid "c6ae282e-a016-4820-8a65-609991a79ea3")
 		)
 		(pin "3"
-			(uuid "5f25d12f-00bd-4f41-9454-d13f738542d2")
+			(uuid "fab8e0bf-c5e6-4551-9b09-bcf0b84080c3")
 		)
 		(pin "30"
-			(uuid "ae6cdc23-42e8-4c36-b1fe-7a389d1f6f02")
+			(uuid "cf670165-c0ff-41ea-87c6-69cb65871ae0")
 		)
 		(pin "31"
-			(uuid "639a65d2-4490-40ec-b140-624ef6d2b485")
+			(uuid "ac682d8f-c87c-4e2f-88a5-34607c277731")
 		)
 		(pin "32"
-			(uuid "3b2ec177-7a37-41ce-9b35-7fc598c87f6c")
+			(uuid "2ab667a3-ff4a-4c25-a745-b78421e0530b")
 		)
 		(pin "33"
-			(uuid "43f77ad5-ae73-4fc4-94aa-de734f3ed5b0")
+			(uuid "13c78963-c8cc-4dac-b319-3f49d101d3d6")
 		)
 		(pin "34"
-			(uuid "2f60bc79-2454-4681-81df-4193d1b17a02")
+			(uuid "694b580d-c04b-4623-8cab-1d799648651c")
 		)
 		(pin "35"
-			(uuid "6e624e33-d189-4976-bc25-b9cfb6656940")
+			(uuid "197e0365-a5ed-46f4-984d-f145dbbc5474")
 		)
 		(pin "36"
-			(uuid "9e12b485-adef-4190-b689-41fa5122263c")
+			(uuid "1b8ba56e-b3eb-455d-b511-45264a9ef1c1")
 		)
 		(pin "37"
-			(uuid "c6b11377-a60b-4c26-8079-c500403b79c4")
+			(uuid "91e863f2-8801-4b4d-8196-fc8f5180e66e")
 		)
 		(pin "38"
-			(uuid "806dc795-544a-455d-a6a7-9a0b179b2f40")
+			(uuid "0a3cc5d6-7a87-47d2-baa1-043f331d6ce1")
 		)
 		(pin "39"
-			(uuid "c8b520fe-75ca-40a3-a80a-06d059e53053")
+			(uuid "0d721c5b-1b89-45ff-ad63-59c69d14e5d8")
 		)
 		(pin "4"
-			(uuid "132df16d-d8fb-40da-a0d4-a8c4ea561df6")
+			(uuid "0e9cfcda-e9e6-412f-bf8c-55889ea80a50")
 		)
 		(pin "40"
-			(uuid "78c4156e-eb37-4819-b010-fb0573e58217")
+			(uuid "51670459-287b-4143-bfc6-254c7475eadf")
 		)
 		(pin "41"
-			(uuid "8c610847-28c0-43d5-98e0-1179f645fddb")
+			(uuid "6b35f22f-aeb1-468f-8ecb-39c7a2ff1e64")
 		)
 		(pin "5"
-			(uuid "d483b14e-9c32-41d2-9928-8968e41d72a7")
+			(uuid "6aa9863e-a9af-43b8-827b-b87d13b6a6de")
 		)
 		(pin "6"
-			(uuid "5866ae76-845f-420b-9b26-a55023308520")
+			(uuid "029d2bce-abb5-4e2e-85ba-2b8cd0b1505e")
 		)
 		(pin "7"
-			(uuid "69b8d55b-6662-4218-8236-f5a3bda2c0f4")
+			(uuid "3b688d02-d3ae-4bbd-9a63-bf0512ec15bc")
 		)
 		(pin "8"
-			(uuid "a45b43cd-955c-4381-a24a-03963752b6ae")
+			(uuid "f1aa7415-bf2c-4529-8a16-991a33eeaebd")
 		)
 		(pin "9"
-			(uuid "621cd0ec-926d-4291-8e4d-4197074c9c5c")
+			(uuid "3f98e610-6ac6-4a9d-87c0-eb08d627a94a")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "U8")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8900,15 +10031,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "cf1c670f-517e-4e24-8a82-80aa279d5da3")
+			(uuid "3d6c68d3-cc57-4c8b-9491-1f72aaa2418d")
 		)
 		(pin "1"
-			(uuid "e47fc210-f55f-486a-80fb-d1ab929e657a")
+			(uuid "467ca966-6a53-42b8-adc8-1ad0677dc636")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9121,15 +10256,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "339aed35-811c-4ae8-b94c-7902bd8db771")
+			(uuid "95730962-8970-42c9-9280-3f45a6d4e6b7")
 		)
 		(pin "1"
-			(uuid "2a450af4-ec28-4aa5-9bf5-a265fa9dc723")
+			(uuid "767486d3-7b3d-41dc-9f1c-21783d2b5656")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R19")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -9188,12 +10327,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e107f49-a595-477f-9309-6fa087531117")
+			(uuid "311729b5-f2b2-43f8-89bb-16c5f81edf7f")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9252,12 +10395,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba93c59f-7d13-46db-a3bd-223069d50d5f")
+			(uuid "69d85797-baa7-4772-a82a-125ae6238908")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9319,12 +10466,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad6511b7-1b05-4036-ad5b-31de3654a7fc")
+			(uuid "1d030413-214e-4549-9d1b-68891493c979")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "TP9")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9511,15 +10662,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc9c3213-dc7c-4dfc-a38d-b5c6c7243b70")
+			(uuid "42ffdad7-af96-4f80-a90d-78d7aa8c9bb4")
 		)
 		(pin "2"
-			(uuid "c7d2e872-5bbd-4e9e-a5ef-c1a34c42af61")
+			(uuid "0e6f4be5-c4d4-4b1b-9dcb-0951a8761255")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C11")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9732,15 +10887,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "507bb4df-9e62-41ba-877b-03f6de683432")
+			(uuid "6119f57c-9484-40fe-990f-8a8a85739ad3")
 		)
 		(pin "1"
-			(uuid "f352b8ee-114f-4109-b536-43c1b3f0288e")
+			(uuid "20d84720-71a1-4632-9ae3-bd351b43cd6d")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9924,15 +11083,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b19e8bcd-6a54-44e6-b889-b728b5ba7103")
+			(uuid "92e1b557-180f-4b7b-a620-b0a9012ef5fc")
 		)
 		(pin "1"
-			(uuid "b57606b9-5dab-40c8-af6e-d13d0ca24875")
+			(uuid "109dd3b1-a64f-4fdb-b9a1-83f5fa898b95")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C16")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -9991,12 +11154,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "56208e3e-ee60-49a8-8b08-d8ff963ef680")
+			(uuid "d612e58a-9381-4f00-8e85-424860b7cd09")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10183,15 +11350,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e888fa36-231e-4764-abe2-3a38719e1301")
+			(uuid "0ffb6558-9c01-468e-8ea9-8ca1415dc71d")
 		)
 		(pin "2"
-			(uuid "4a8f6174-f77c-4074-89f4-c7c9f83c967c")
+			(uuid "c9c8f038-7881-4dcd-9143-27565df43405")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C12")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -10404,15 +11575,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe4bd3d9-1413-4f71-b8d1-d392b6521705")
+			(uuid "c5c00c8a-e4c8-4a3e-88b5-7fe693a2d199")
 		)
 		(pin "1"
-			(uuid "4f71d035-f8dc-4638-a311-c42724c9e909")
+			(uuid "fb929e8d-de72-4a72-996c-7402d2f365a6")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -10599,15 +11774,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "4bb813aa-69dc-49d5-8ff1-d32726add670")
+			(uuid "b910a13b-a83b-4432-a9db-670367293f9d")
 		)
 		(pin "1"
-			(uuid "b3172856-43cc-4033-88b3-d79eea61a62a")
+			(uuid "fe5cd59d-bd29-44ea-b1d4-9bdb7bbcf7a9")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C37")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -10820,15 +11999,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0805e48f-48f9-4600-9281-ebf2f8071c4a")
+			(uuid "72917115-3b98-4dfb-ba53-a10cbcc709e1")
 		)
 		(pin "1"
-			(uuid "f3aa71a8-58ae-4536-8c33-4cfa44a937bc")
+			(uuid "5db9607d-c109-4148-b1b6-1c73a24ee2ca")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R17")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -10889,18 +12072,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "c898d47e-a342-42b0-b5ef-93423f38a6a1")
+			(uuid "d37d5943-09ff-4b77-a0b1-06481d97f33e")
 		)
 		(pin "2"
-			(uuid "15d3c6f6-2ec5-4f78-8f11-4c2627b0385f")
+			(uuid "c81095e4-10c4-43c0-92d0-783f8b83c594")
 		)
 		(pin "3"
-			(uuid "14a1d109-e0f1-4437-83e5-ff82bbdbc760")
+			(uuid "1f207baf-05cb-425c-8a79-bc829ca443ad")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "J1")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11113,15 +12300,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0672f359-9c05-4bfd-a1a9-f3a5f77f71ce")
+			(uuid "1250127d-de63-4315-bf8c-68950143b72c")
 		)
 		(pin "1"
-			(uuid "6db5c5cc-a546-4a93-b5ff-ffc9a2501b4b")
+			(uuid "9848aa02-3787-4fbe-a20b-ee83eca5dfc8")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -11334,15 +12525,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "69b0ec9d-4b63-4566-8aa4-a70eea322397")
+			(uuid "2a4c2bba-1e56-4b79-9d95-daacfc63fc95")
 		)
 		(pin "1"
-			(uuid "a8b647be-dd9c-483a-baec-c6d06224ff47")
+			(uuid "2fff0c85-066e-42d7-a0e2-8086e5b897ad")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R23")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -11555,15 +12750,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e32579fe-5b45-4b68-a24f-d36cea144978")
+			(uuid "fa51ba3c-5c26-4298-9e3c-b0cd3e3f55c4")
 		)
 		(pin "2"
-			(uuid "2ca15903-9ec1-4106-a42a-71651de014aa")
+			(uuid "9e47dfcf-1893-4bf2-9b18-6b8d3af2e5b5")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -11750,15 +12949,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "92c039bb-b597-4ce0-aba3-a261fc03d762")
+			(uuid "3575e8df-e072-40c3-ba7f-ade24f3cfa58")
 		)
 		(pin "2"
-			(uuid "d1f2b6fa-86a2-4690-9617-d5f920aeb67c")
+			(uuid "4ceafa1e-99d7-47b4-acd0-3f5ff3cc4146")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C17")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -11820,12 +13023,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb06b3df-8952-4251-b4db-1dc00f4e60be")
+			(uuid "941f7514-97a3-411b-b7da-5be649f8cac9")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "TP8")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -11884,12 +13091,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e38c69e2-3023-4b7f-807a-eb2fcf7b3e76")
+			(uuid "a8dd6454-646d-4c26-b4a2-ccc2ab184059")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -12102,15 +13313,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "380da9af-8bd1-4ae9-9e6b-42b49cef0286")
+			(uuid "3e31e18f-100d-4a44-81c7-1afbf6e2f21d")
 		)
 		(pin "1"
-			(uuid "cfe797ee-5691-445b-b578-ecfab55e9a57")
+			(uuid "b41a4aa3-ac3a-477b-941a-04d3c59c30db")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R15")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -12170,12 +13385,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f19f5a88-5142-44ef-b177-52cc168b896f")
+			(uuid "e36b8644-b0b6-494b-87fa-08d7baa9e3b5")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12235,12 +13454,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6aed804-64e5-4cc1-b238-ef1b2423c9b5")
+			(uuid "c647f7ad-85d2-4cfb-a4ac-a8026c4a8522")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -12428,15 +13651,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "e8d151b0-efba-4266-a81f-eae7d0d9ebdb")
+			(uuid "a516ac7a-aaf9-4428-b085-9c1007afcbc9")
 		)
 		(pin "1"
-			(uuid "d22882eb-088a-48bf-9044-f4d1eaabcaa5")
+			(uuid "d73438ff-7c6f-4765-8ccf-4ab07b4834b4")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C38")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -12623,15 +13850,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "b089ed42-bfd1-419d-a119-847ea11ac73c")
+			(uuid "1bdc93ff-e4f9-4a1c-9bab-596d5eea4e33")
 		)
 		(pin "2"
-			(uuid "9ba68bc2-765e-4617-8aa1-b379711b8bd8")
+			(uuid "c3544b2f-3dd3-41e0-b152-d485a5a8da91")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12690,12 +13921,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "25e0780d-043f-4ba7-b313-65dffc438c26")
+			(uuid "1a28ecbf-33fa-45ce-a702-4541bbe1dee8")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12710,7 +13945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8e3d0ed-3786-4b11-91d9-709a1ad1458c")
-		(property "Reference" "R32"
+		(property "Reference" "R56"
 			(at 163.83 41.9099 0)
 			(effects
 				(font
@@ -12909,15 +14144,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e72816b-b836-45f9-9d07-4241da92ffd3")
+			(uuid "9b583fb5-b125-404d-8fa7-43780a3d28b6")
 		)
 		(pin "2"
-			(uuid "974f703b-9db7-4122-9b89-2d52110c81c6")
+			(uuid "c447aafe-a223-4d99-b617-51e9216576ce")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
-					(reference "R32")
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -13130,15 +14369,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "5499b82f-21ac-4694-9bbc-7fc33b15e446")
+			(uuid "4987df15-e124-45ec-b7dc-103ffc2bd513")
 		)
 		(pin "1"
-			(uuid "7e4fc81e-ba74-424d-aa09-124f56419576")
+			(uuid "6384d94b-4b67-4e85-9d22-ca6ed4cd53f9")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -13351,15 +14594,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "c88c35fb-cbc9-4c67-9f14-4d5821fc36d7")
+			(uuid "2310de11-bb74-44bd-8403-6e88024090df")
 		)
 		(pin "1"
-			(uuid "bf18a98b-3511-477a-abb8-2ee6f343a3e3")
+			(uuid "fa1b0465-efc5-4733-b304-cad58ade4ddb")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "R20")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -13418,12 +14665,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6af5778-8780-4f53-9a54-01a1a94741d0")
+			(uuid "55d38144-c654-4c0e-8932-8dcec5c18884")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/22171b38-2124-423e-bbc1-85af78cbc5a3"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)

@@ -4086,7 +4086,7 @@
 			(uuid "b5ee114e-c76f-4e23-9be8-cb21e603039d")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0134")
 					(unit 1)
@@ -4674,7 +4674,7 @@
 			(uuid "f596a97f-efcb-4339-b1c6-8dda350442e2")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "C40")
 					(unit 1)
@@ -4980,7 +4980,7 @@
 			(uuid "6adb821d-9713-46c4-aeb4-7cd589b96bfc")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "D5")
 					(unit 1)
@@ -5502,7 +5502,7 @@
 			(uuid "0855b762-d739-41e8-8119-62a26e2c1907")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0137")
 					(unit 1)
@@ -6217,7 +6217,7 @@
 			(uuid "1fbb963a-6b31-4cea-b6c9-0180e4db72fa")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0132")
 					(unit 1)
@@ -6699,7 +6699,7 @@
 			(uuid "83fb89f0-cc88-47ea-adba-832a0ab0d731")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0135")
 					(unit 1)
@@ -7224,7 +7224,7 @@
 			(uuid "feb9121a-acba-4909-9cf0-6f1a838cd3d4")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0133")
 					(unit 1)
@@ -7448,7 +7448,7 @@
 			(uuid "f8029578-9459-4136-9d6f-f0df78ab6b2c")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "D2")
 					(unit 1)
@@ -7514,7 +7514,7 @@
 			(uuid "fa067953-e60a-4932-b6e5-61a61419b9bf")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR020")
 					(unit 1)
@@ -7579,7 +7579,7 @@
 			(uuid "851e4769-5605-4656-a8b2-16399910e136")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0138")
 					(unit 1)
@@ -7839,7 +7839,7 @@
 			(uuid "31dd2963-d245-46b4-ad95-69ceba7fd416")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0136")
 					(unit 1)
@@ -8453,7 +8453,7 @@
 			(uuid "5675c9c7-2f22-4c8f-8106-5e498604f011")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "L1")
 					(unit 1)
@@ -8741,7 +8741,7 @@
 			(uuid "075a35eb-3969-4457-9ee8-b606664c012e")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "U3")
 					(unit 1)
@@ -8806,7 +8806,7 @@
 			(uuid "07e00f54-54d7-4ff3-a877-e196636bf050")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "#PWR0131")
 					(unit 1)
@@ -8947,7 +8947,7 @@
 			(uuid "f2acaf63-45c4-4af0-a7b7-66dd8b0d3b73")
 		)
 		(instances
-			(project ""
+			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/f67b4e05-78ff-4006-8d50-6371aa6c9980"
 					(reference "U2")
 					(unit 1)
