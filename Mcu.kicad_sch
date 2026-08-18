@@ -13862,6 +13862,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG_TX"
+		(shape input)
+		(at 144.78 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "24b858c7-c1e4-4606-9813-f377e96af997")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 96.2953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AN_DRV_SO_A"
 		(shape input)
 		(at 292.1 54.61 0)
@@ -13925,6 +13947,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DEBUG_RX"
+		(shape input)
+		(at 142.24 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "3cd23b57-de7a-48a3-b0f5-a8259c345fb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 96.5372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15451,7 +15495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP100_STM"
+		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 			(at 105.156 219.456 0)
 			(effects
 				(font
@@ -16055,7 +16099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x10_P1.27mm_Vertical"
 			(at 71.12 43.18 0)
 			(effects
 				(font
@@ -17639,7 +17683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x10_P1.27mm_Vertical"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -18219,7 +18263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP100_STM"
+		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 			(at 263.906 54.356 0)
 			(effects
 				(font
@@ -18998,7 +19042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP100_STM"
+		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 			(at 265.176 148.336 0)
 			(effects
 				(font
