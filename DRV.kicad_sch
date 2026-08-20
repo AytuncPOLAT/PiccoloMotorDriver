@@ -4496,22 +4496,10 @@
 		(uuid "2a8da576-39a3-41c0-95e1-65f20bf21b76")
 	)
 	(junction
-		(at 332.74 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bbb1ae8-5337-49a5-8f0b-1fd2a83493ce")
-	)
-	(junction
 		(at 275.59 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d20c95c-5739-42ff-97bb-f7e70796a37b")
-	)
-	(junction
-		(at 332.74 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f5456c5-3179-40a1-be6b-9d546b90bd69")
 	)
 	(junction
 		(at 114.3 163.83)
@@ -4683,16 +4671,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 38.1) (xy 344.17 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f178d6-1e37-4810-8e8d-4668d6e3652c")
-	)
-	(wire
-		(pts
 			(xy 214.63 95.25) (xy 275.59 95.25)
 		)
 		(stroke
@@ -4730,16 +4708,6 @@
 			(type default)
 		)
 		(uuid "06651b23-f794-4565-b703-aa78793d5f9c")
-	)
-	(wire
-		(pts
-			(xy 344.17 57.15) (xy 344.17 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "091d01d3-ce81-4a69-aba4-90daabddb2a2")
 	)
 	(wire
 		(pts
@@ -5913,16 +5881,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 38.1) (xy 344.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a14ed8-b573-4341-8a16-a6a5fcbc3d45")
-	)
-	(wire
-		(pts
 			(xy 257.81 127) (xy 257.81 168.91)
 		)
 		(stroke
@@ -6330,16 +6288,6 @@
 			(type default)
 		)
 		(uuid "d695f19b-55fc-47b7-946a-9b109ff00571")
-	)
-	(wire
-		(pts
-			(xy 332.74 57.15) (xy 344.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73707ed-3b45-4965-b05f-87f99854eaaf")
 	)
 	(wire
 		(pts
@@ -15374,84 +15322,6 @@
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 344.17 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af5bbb7a-c12c-4e22-8c35-a4e483bd54c2")
-		(property "Reference" "C26"
-			(at 347.98 50.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF / 100V"
-			(at 339.852 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 345.1352 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 344.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3008502"
-			(at 344.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d028aeca-1964-4781-823e-d65577f5d5a3")
-		)
-		(pin "1"
-			(uuid "732db966-0570-48ab-9669-38ef2ef7236b")
-		)
-		(instances
-			(project "PiccoloMotorDriver"
-				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
-					(reference "C26")
 					(unit 1)
 				)
 			)
