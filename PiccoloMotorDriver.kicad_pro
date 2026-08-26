@@ -1256,7 +1256,7 @@
         "uuid": "cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369"
       }
     ],
-    "used_designators": "C40",
+    "used_designators": "#PWR148-149,R40-41,J15-55,D10-11,C40",
     "variants": []
   },
   "sheets": [
