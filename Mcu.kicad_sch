@@ -11719,6 +11719,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 36.83) (xy 152.4 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b02e271-5b9f-4cfb-92f4-e63c34b250ae")
+	)
+	(wire
+		(pts
 			(xy 40.64 152.4) (xy 53.34 152.4)
 		)
 		(stroke
@@ -12119,7 +12129,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 41.91) (xy 226.06 41.91)
+			(xy 234.95 41.91) (xy 232.41 41.91)
 		)
 		(stroke
 			(width 0)
@@ -12256,6 +12266,16 @@
 			(type default)
 		)
 		(uuid "bf2016f0-0724-4be4-aee3-79b0e95329f0")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 152.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02b15a0-84c4-4d43-9477-60fe6a9b754d")
 	)
 	(wire
 		(pts
@@ -13077,6 +13097,16 @@
 		)
 		(uuid "3df38c06-2152-4c62-865a-79b894bb7e7f")
 	)
+	(label "PC1"
+		(at 68.58 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41135919-6952-43f5-af1d-72b69b837bf7")
+	)
 	(label "PE1"
 		(at 114.3 21.59 180)
 		(effects
@@ -13106,6 +13136,16 @@
 			(justify right bottom)
 		)
 		(uuid "48d97d7a-b5fd-4fb9-9894-6198e2985414")
+	)
+	(label "PC1"
+		(at 232.41 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48e8eb00-8433-4ee5-b98a-eed36e9b32f9")
 	)
 	(label "PC8"
 		(at 232.41 59.69 180)
@@ -13148,7 +13188,7 @@
 		(uuid "55ab847e-c894-451f-82ae-e20301bd63b3")
 	)
 	(label "PC5"
-		(at 67.31 21.59 180)
+		(at 68.58 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13188,7 +13228,7 @@
 		(uuid "6c0fdfe9-c5d8-4974-ac75-ffaf3527d82e")
 	)
 	(label "PC13"
-		(at 67.31 40.64 180)
+		(at 68.58 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13218,7 +13258,7 @@
 		(uuid "719d0f32-c746-4ad7-9947-d75af1816095")
 	)
 	(label "PC8"
-		(at 67.31 33.02 180)
+		(at 68.58 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13228,7 +13268,7 @@
 		(uuid "74c6dfe3-7e18-4397-bdcd-c7976853f4da")
 	)
 	(label "PC14"
-		(at 67.31 44.45 180)
+		(at 68.58 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13258,7 +13298,7 @@
 		(uuid "796a3051-bba2-4528-b73b-b31a64a8c504")
 	)
 	(label "PC4"
-		(at 67.31 17.78 180)
+		(at 68.58 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13288,7 +13328,7 @@
 		(uuid "81b63f9b-4452-41fa-bb4e-757ce8ca8edf")
 	)
 	(label "PC9"
-		(at 67.31 36.83 180)
+		(at 68.58 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13318,7 +13358,7 @@
 		(uuid "838c74df-9890-4ae0-9317-ae272954d518")
 	)
 	(label "PC15"
-		(at 67.31 48.26 180)
+		(at 68.58 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13398,7 +13438,7 @@
 		(uuid "a80dc096-23fd-4a0a-890f-59040e1fb0f4")
 	)
 	(label "PC7"
-		(at 67.31 29.21 180)
+		(at 68.58 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13428,7 +13468,7 @@
 		(uuid "addb9827-5fff-4164-80f7-0f0dff260740")
 	)
 	(label "PC6"
-		(at 67.31 25.4 180)
+		(at 68.58 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13477,6 +13517,16 @@
 		)
 		(uuid "bedc30f3-e81a-4821-926c-7f47697adc02")
 	)
+	(label "PE14"
+		(at 152.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfb575a7-6240-4dd3-b2fe-fbca0c302617")
+	)
 	(label "PA5"
 		(at 20.32 17.78 180)
 		(effects
@@ -13486,6 +13536,16 @@
 			(justify right bottom)
 		)
 		(uuid "c172c5ff-4c99-4ef4-a6a1-07ecf3a1dbf8")
+	)
+	(label "PE15"
+		(at 152.4 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d227d678-3594-4e66-8a66-e3f86902f02b")
 	)
 	(label "PB6"
 		(at 285.75 97.79 0)
@@ -13656,30 +13716,6 @@
 			)
 		)
 	)
-	(global_label "DEBUG_TX"
-		(shape input)
-		(at 152.4 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "24b858c7-c1e4-4606-9813-f377e96af997")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.4647 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "AN_DRV_SO_A"
 		(shape input)
 		(at 292.1 54.61 0)
@@ -13750,30 +13786,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "DEBUG_RX"
-		(shape input)
-		(at 152.4 17.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "3cd23b57-de7a-48a3-b0f5-a8259c345fb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2228 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -14000,6 +14012,30 @@
 			)
 		)
 	)
+	(global_label "CAN_ACT"
+		(shape input)
+		(at 156.21 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e1cff7-27a3-467e-a281-df2b17b8dd45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.1781 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB-"
 		(shape input)
 		(at 322.58 66.04 0)
@@ -14110,31 +14146,6 @@
 		(uuid "83c6fb47-fb4f-40af-af40-14d8432c65bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 37.4659 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DRV_AN_REF"
-		(shape input)
-		(at 226.06 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(color 0 144 255 1)
-			)
-			(justify right)
-		)
-		(uuid "87279ed3-1efc-4527-b6f2-800156896706")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.4796 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14689,6 +14700,30 @@
 			)
 		)
 	)
+	(global_label "RS485_ACT"
+		(shape input)
+		(at 154.94 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2bc9813-66df-4bd7-b725-4932de51c651")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.327 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DRV_SPI_SDI"
 		(shape input)
 		(at 226.06 46.99 180)
@@ -14896,7 +14931,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 33.02 0)
+		(at 73.66 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14906,7 +14941,7 @@
 		(dnp no)
 		(uuid "10980e97-5717-4495-91e6-02be7ab1d527")
 		(property "Reference" "J37"
-			(at 75.692 33.02 0)
+			(at 76.962 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14917,7 +14952,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 33.02 0)
+			(at 74.93 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14928,7 +14963,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 33.02 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14939,7 +14974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 33.02 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,7 +14985,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 33.02 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15864,7 +15899,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 40.64 0)
+		(at 73.66 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15874,7 +15909,7 @@
 		(dnp no)
 		(uuid "1fe5b3d1-80b4-4967-a447-375d10c1871f")
 		(property "Reference" "J39"
-			(at 75.692 40.64 0)
+			(at 76.962 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15885,7 +15920,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 40.64 0)
+			(at 74.93 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15896,7 +15931,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 40.64 0)
+			(at 73.66 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15907,7 +15942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 40.64 0)
+			(at 73.66 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15918,7 +15953,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 40.64 0)
+			(at 73.66 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17465,7 +17500,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 29.21 0)
+		(at 73.66 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17475,7 +17510,7 @@
 		(dnp no)
 		(uuid "3f747ff3-042c-4c76-ad30-1709981374c5")
 		(property "Reference" "J36"
-			(at 75.692 29.21 0)
+			(at 76.962 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17486,7 +17521,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 29.21 0)
+			(at 74.93 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17497,7 +17532,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 29.21 0)
+			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17508,7 +17543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 29.21 0)
+			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17519,7 +17554,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 29.21 0)
+			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22499,7 +22534,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 17.78 0)
+		(at 73.66 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22509,7 +22544,7 @@
 		(dnp no)
 		(uuid "a7f1a44c-43d0-47a0-8492-8a5f2b185a76")
 		(property "Reference" "J33"
-			(at 75.692 17.78 0)
+			(at 76.962 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22520,7 +22555,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 17.78 0)
+			(at 74.93 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22531,7 +22566,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 17.78 0)
+			(at 73.66 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22542,7 +22577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 17.78 0)
+			(at 73.66 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22553,7 +22588,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 17.78 0)
+			(at 73.66 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24891,7 +24926,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 48.26 0)
+		(at 73.66 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24901,7 +24936,7 @@
 		(dnp no)
 		(uuid "d590ac32-8f28-46e6-b813-1fe0dba00ceb")
 		(property "Reference" "J41"
-			(at 75.692 48.26 0)
+			(at 76.962 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24912,7 +24947,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 48.26 0)
+			(at 74.93 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24923,7 +24958,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 48.26 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24934,7 +24969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 48.26 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24945,7 +24980,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 48.26 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24969,7 +25004,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 44.45 0)
+		(at 73.66 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24979,7 +25014,7 @@
 		(dnp no)
 		(uuid "d611308e-66f6-4055-aa32-fbadcc7ed129")
 		(property "Reference" "J40"
-			(at 75.692 44.45 0)
+			(at 76.962 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24990,7 +25025,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 44.45 0)
+			(at 74.93 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25001,7 +25036,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 44.45 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25012,7 +25047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 44.45 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25023,7 +25058,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 44.45 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25406,7 +25441,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 25.4 0)
+		(at 73.66 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25416,7 +25451,7 @@
 		(dnp no)
 		(uuid "dd44cfcb-3261-4d98-be1a-c1186d6fc142")
 		(property "Reference" "J35"
-			(at 75.692 25.4 0)
+			(at 76.962 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25427,7 +25462,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 25.4 0)
+			(at 74.93 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25438,7 +25473,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 25.4 0)
+			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25449,7 +25484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 25.4 0)
+			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25460,7 +25495,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 25.4 0)
+			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26045,7 +26080,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 21.59 0)
+		(at 73.66 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26055,7 +26090,7 @@
 		(dnp no)
 		(uuid "ee01ee4a-d50a-481a-8f55-764e83ff0619")
 		(property "Reference" "J34"
-			(at 75.692 21.59 0)
+			(at 76.962 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26066,7 +26101,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 21.59 0)
+			(at 74.93 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26077,7 +26112,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 21.59 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26088,7 +26123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 21.59 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26099,7 +26134,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 21.59 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26200,7 +26235,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 36.83 0)
+		(at 73.66 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26210,7 +26245,7 @@
 		(dnp no)
 		(uuid "f9c7f022-44d0-472f-bee3-bb34bb43c7a6")
 		(property "Reference" "J38"
-			(at 75.692 36.83 0)
+			(at 76.962 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26221,7 +26256,7 @@
 			)
 		)
 		(property "Value" "IO"
-			(at 73.66 36.83 0)
+			(at 74.93 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26232,7 +26267,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 36.83 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26243,7 +26278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 36.83 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26254,7 +26289,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 36.83 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26503,6 +26538,84 @@
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/18750508-a205-46c6-b741-330bfb864ed8"
 					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd6a9888-ca93-4832-92f6-489cbd2e61bc")
+		(property "Reference" "J56"
+			(at 76.962 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IO"
+			(at 74.93 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 73.66 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b791cd24-750f-427d-ae8d-77a4b3c188ea")
+		)
+		(instances
+			(project "PiccoloMotorDriver"
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/18750508-a205-46c6-b741-330bfb864ed8"
+					(reference "J56")
 					(unit 1)
 				)
 			)

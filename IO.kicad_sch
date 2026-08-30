@@ -5015,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 21.59) (xy 20.32 21.59)
+			(xy 26.67 67.31) (xy 29.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5025,7 +5025,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 22.86) (xy 39.37 21.59)
+			(xy 48.26 68.58) (xy 48.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5105,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 21.59) (xy 38.1 21.59)
+			(xy 48.26 67.31) (xy 46.99 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5475,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 22.86) (xy 133.35 22.86)
+			(xy 132.08 80.01) (xy 134.62 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5555,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 21.59) (xy 30.48 21.59)
+			(xy 36.83 67.31) (xy 39.37 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5615,7 +5615,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 22.86) (xy 140.97 22.86)
+			(xy 143.51 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5625,7 +5625,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 22.86) (xy 123.19 22.86)
+			(xy 121.92 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5745,7 +5745,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 24.13) (xy 142.24 22.86)
+			(xy 143.51 81.28) (xy 143.51 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6063,16 +6063,6 @@
 		)
 		(uuid "0194a133-47aa-48d5-ab84-3d1e36ee502e")
 	)
-	(label "PE5"
-		(at 17.78 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0aa5757d-2ce6-4eaf-933d-c3e6b9d46dc0")
-	)
 	(label "rs485_termination_B"
 		(at 74.93 35.56 90)
 		(effects
@@ -6092,16 +6082,6 @@
 			(justify left bottom)
 		)
 		(uuid "1367c80d-8f8d-43df-9711-720ed813e005")
-	)
-	(label "PE6"
-		(at 120.65 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68ca1c3a-ce4f-4fa5-a5dc-f8838a0db9ff")
 	)
 	(label "RS485+"
 		(at 59.69 52.07 0)
@@ -6206,6 +6186,30 @@
 		(uuid "004d659b-f725-464c-a16d-a6260df5e1e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.4136 48.1806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RS485_ACT"
+		(shape input)
+		(at 26.67 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2367da7d-1136-440d-ab5f-681462a75363")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.283 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,6 +6402,30 @@
 		(uuid "f0c24754-4ddb-466f-9790-0c5fd2ab1631")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.9431 46.9106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAN_ACT"
+		(shape input)
+		(at 121.92 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc9f77ea-bbaf-4699-8c4f-04f74b60c925")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.9519 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,10 +7414,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b360ab4-545a-441c-887a-63afd94bb8ac")
 		(property "Reference" "J1"
-			(at 265.43 50.7999 0)
+			(at 267.716 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7400,7 +7427,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_SWD"
-			(at 265.43 53.3399 0)
+			(at 265.938 60.452 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7635,7 +7662,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0603,White")
-		(at 34.29 21.59 90)
+		(at 43.18 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7646,7 +7673,7 @@
 		(fields_autoplaced yes)
 		(uuid "53fabbb3-4f8a-4e67-9f29-8add7519bca4")
 		(property "Reference" "D10"
-			(at 32.9246 19.05 0)
+			(at 41.8146 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7657,7 +7684,7 @@
 			)
 		)
 		(property "Value" "White"
-			(at 35.4647 19.05 0)
+			(at 44.3547 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7668,7 +7695,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_0603"
-			(at 34.29 23.368 90)
+			(at 43.18 69.088 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,7 +7706,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305091500_Hubei-KENTO-Elec-KT-0603W_C2290.pdf"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7690,7 +7717,7 @@
 			)
 		)
 		(property "Description" "White 0603 LED Indication - Discrete ROHS"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +7728,7 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7739,7 @@
 			)
 		)
 		(property "Stock" "1189238"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +7750,7 @@
 			)
 		)
 		(property "Price" "0.013USD"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,7 +7761,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7772,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +7783,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +7794,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +7805,7 @@
 			)
 		)
 		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +7816,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +7827,7 @@
 			)
 		)
 		(property "Part" "KT-0603W"
-			(at 34.29 21.59 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 22.86 0)
+		(at 48.26 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8425,7 +8452,7 @@
 		(dnp no)
 		(uuid "87d3f7c3-91cb-4b05-ae44-3492669ec01e")
 		(property "Reference" "#PWR0148"
-			(at 39.37 29.21 0)
+			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,7 +8463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.497 27.2542 0)
+			(at 48.387 72.9742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8446,7 +8473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 22.86 0)
+			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +8484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 22.86 0)
+			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +8495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 22.86 0)
+			(at 48.26 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9227,10 +9254,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7b2d8a3-4fa7-401b-86c6-e82ff885b796")
 		(property "Reference" "J3"
-			(at 100.33 50.7999 0)
+			(at 101.6 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9241,7 +9267,7 @@
 			)
 		)
 		(property "Value" "C189893"
-			(at 100.33 53.3399 0)
+			(at 100.33 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9304,7 +9330,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0603,White")
-		(at 137.16 22.86 90)
+		(at 138.43 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9315,7 +9341,7 @@
 		(fields_autoplaced yes)
 		(uuid "acfc4b37-7901-429f-99d2-4c3578bc679a")
 		(property "Reference" "D11"
-			(at 135.7946 20.32 0)
+			(at 137.0646 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9326,7 +9352,7 @@
 			)
 		)
 		(property "Value" "White"
-			(at 138.3347 20.32 0)
+			(at 139.6047 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9337,7 +9363,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_0603"
-			(at 137.16 24.638 90)
+			(at 138.43 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9348,7 +9374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305091500_Hubei-KENTO-Elec-KT-0603W_C2290.pdf"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9385,7 @@
 			)
 		)
 		(property "Description" "White 0603 LED Indication - Discrete ROHS"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9370,7 +9396,7 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9407,7 @@
 			)
 		)
 		(property "Stock" "1189238"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9418,7 @@
 			)
 		)
 		(property "Price" "0.013USD"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,7 +9429,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,7 +9440,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9451,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9462,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9447,7 +9473,7 @@
 			)
 		)
 		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9458,7 +9484,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9469,7 +9495,7 @@
 			)
 		)
 		(property "Part" "KT-0603W"
-			(at 137.16 22.86 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +9750,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,680Ω")
-		(at 24.13 21.59 90)
+		(at 33.02 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9735,7 +9761,7 @@
 		(fields_autoplaced yes)
 		(uuid "bed1144c-a17c-4f52-9f22-d1080e43e927")
 		(property "Reference" "R40"
-			(at 24.1299 19.05 0)
+			(at 33.0199 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9746,7 +9772,7 @@
 			)
 		)
 		(property "Value" "680Ω"
-			(at 24.13 21.59 90)
+			(at 33.02 67.31 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9756,7 +9782,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 24.13 23.368 90)
+			(at 33.02 69.088 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9767,7 +9793,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF6800T5E_C23228.pdf"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9778,7 +9804,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 680Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9815,7 @@
 			)
 		)
 		(property "LCSC" "C23228"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9800,7 +9826,7 @@
 			)
 		)
 		(property "Stock" "1146230"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9811,7 +9837,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9822,7 +9848,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,7 +9859,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9844,7 +9870,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,7 +9881,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9866,7 +9892,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,7 +9903,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +9914,7 @@
 			)
 		)
 		(property "Part" "0603WAF6800T5E"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9925,7 @@
 			)
 		)
 		(property "Resistance" "680Ω"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,7 +9936,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +9947,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +9958,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,7 +9969,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +9980,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +9991,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 24.13 21.59 0)
+			(at 33.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,7 +10094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 24.13 0)
+		(at 143.51 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10078,7 +10104,7 @@
 		(dnp no)
 		(uuid "d5520e00-28b0-40ca-8676-92d1617d9131")
 		(property "Reference" "#PWR0149"
-			(at 142.24 30.48 0)
+			(at 143.51 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10089,7 +10115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.367 28.5242 0)
+			(at 143.637 85.6742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10099,7 +10125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 24.13 0)
+			(at 143.51 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +10136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 24.13 0)
+			(at 143.51 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,7 +10147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 24.13 0)
+			(at 143.51 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10487,7 +10513,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,680Ω")
-		(at 127 22.86 90)
+		(at 128.27 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10498,7 +10524,7 @@
 		(fields_autoplaced yes)
 		(uuid "e85baa99-a4d1-4336-91e6-e2671dcda5d4")
 		(property "Reference" "R41"
-			(at 126.9999 20.32 0)
+			(at 128.2699 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10509,7 +10535,7 @@
 			)
 		)
 		(property "Value" "680Ω"
-			(at 127 22.86 90)
+			(at 128.27 80.01 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10519,7 +10545,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 127 24.638 90)
+			(at 128.27 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10530,7 +10556,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF6800T5E_C23228.pdf"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10541,7 +10567,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 680Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10552,7 +10578,7 @@
 			)
 		)
 		(property "LCSC" "C23228"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10563,7 +10589,7 @@
 			)
 		)
 		(property "Stock" "1146230"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10574,7 +10600,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,7 +10611,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10596,7 +10622,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,7 +10633,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,7 +10644,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10655,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,7 +10666,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10651,7 +10677,7 @@
 			)
 		)
 		(property "Part" "0603WAF6800T5E"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10662,7 +10688,7 @@
 			)
 		)
 		(property "Resistance" "680Ω"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10699,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10684,7 +10710,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,7 +10721,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10706,7 +10732,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,7 +10743,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10728,7 +10754,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 127 22.86 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
