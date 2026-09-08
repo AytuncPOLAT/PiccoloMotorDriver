@@ -5032,6 +5032,12 @@
 		(uuid "32c7a6cc-b80e-45f5-a73d-cbce4caf24b5")
 	)
 	(junction
+		(at 223.52 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e0419b-09d7-42d9-a59f-5e85ae0254e5")
+	)
+	(junction
 		(at 203.2 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5096,6 +5102,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e4e3e1c-2a65-47e1-a18b-5ca339f4bf47")
+	)
+	(junction
+		(at 114.3 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa08c8d9-2b47-4037-83b8-3f5cc9d7b96f")
 	)
 	(junction
 		(at 257.81 115.57)
@@ -5343,6 +5355,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 123.19) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285d7ff4-6f24-4a5d-8017-e8c77181932e")
+	)
+	(wire
+		(pts
 			(xy 213.36 69.85) (xy 217.17 69.85)
 		)
 		(stroke
@@ -5543,6 +5565,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 40.64) (xy 237.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc90bc4-de99-4b06-b08d-7c3c0e09cb52")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 114.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5413c965-8b45-4639-8f0a-f1fbac55f518")
+	)
+	(wire
+		(pts
 			(xy 104.14 187.96) (xy 104.14 189.23)
 		)
 		(stroke
@@ -5643,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 135.89) (xy 148.59 135.89)
+			(xy 100.33 135.89) (xy 104.14 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5683,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 223.52) (xy 368.3 223.52)
+			(xy 304.8 134.62) (xy 312.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5893,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 67.31) (xy 257.81 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba462e6-d6f2-4b12-bb6c-21280e2b9562")
-	)
-	(wire
-		(pts
 			(xy 321.31 38.1) (xy 332.74 38.1)
 		)
 		(stroke
@@ -5943,7 +5975,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 210.82) (xy 368.3 210.82)
+			(xy 304.8 121.92) (xy 312.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6503,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 217.17) (xy 368.3 217.17)
+			(xy 304.8 128.27) (xy 312.42 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6523,7 +6555,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 135.89) (xy 168.91 135.89)
+			(xy 111.76 135.89) (xy 114.3 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6540,6 +6572,16 @@
 			(type default)
 		)
 		(uuid "be3515c9-9386-4559-a6e4-7ec24c0a67f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 135.89) (xy 168.91 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee32474-af73-4c8c-83b4-d1701128487b")
 	)
 	(wire
 		(pts
@@ -6922,7 +6964,7 @@
 		(uuid "340851e5-4df9-4879-ae06-e46f3f3e82ae")
 	)
 	(label "V_DRAIN"
-		(at 257.81 73.66 0)
+		(at 237.49 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6932,7 +6974,7 @@
 		(uuid "3664292a-44d9-476c-b62a-24c60216d3ce")
 	)
 	(label "PHASE_A"
-		(at 360.68 210.82 180)
+		(at 304.8 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6962,7 +7004,7 @@
 		(uuid "8ff2c0ae-a070-4290-bd2e-3b3d549e029b")
 	)
 	(label "PHASE_C"
-		(at 360.68 223.52 180)
+		(at 304.8 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6992,7 +7034,7 @@
 		(uuid "e36f4299-d5c1-4f07-8912-ef105a0fcef3")
 	)
 	(label "PHASE_B"
-		(at 360.68 217.17 180)
+		(at 304.8 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7097,7 +7139,7 @@
 			)
 		)
 	)
-	(global_label "DRV_OFF"
+	(global_label "DRV_ENABLE"
 		(shape input)
 		(at 134.62 107.95 180)
 		(fields_autoplaced yes)
@@ -7109,7 +7151,7 @@
 		)
 		(uuid "626e054d-471e-4365-9695-f50c5557b0c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1031 107.8706 0)
+			(at 120.0234 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7339,7 +7381,7 @@
 	)
 	(global_label "DRV_SPI_SDO"
 		(shape output)
-		(at 134.62 135.89 180)
+		(at 100.33 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7349,7 +7391,7 @@
 		)
 		(uuid "ee6b1e78-aa85-4b62-9348-2a66f4f2509c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.7488 135.8106 0)
+			(at 85.4588 135.8106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9499,6 +9541,272 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
+		(at 114.3 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17360c9a-5369-4cb0-aff2-77dd368cc793")
+		(property "Reference" "R25"
+			(at 112.014 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 114.3 129.54 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 116.078 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "51181774"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0603WAF1002T5E"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee8f5725-d2b2-4ef8-91d3-9f1d4d3f1d6b")
+		)
+		(pin "2"
+			(uuid "fa5ef5ae-df41-4a82-ae47-84eb0b2c15b6")
+		)
+		(instances
+			(project "PiccoloMotorDriver"
+				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 58.42 0)
 		(unit 1)
@@ -9808,7 +10116,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 373.38 223.52 0)
+		(at 317.5 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9818,7 +10126,7 @@
 		(dnp no)
 		(uuid "198b1cae-ca86-4f2d-bf37-8d7e9dc0523b")
 		(property "Reference" "J13"
-			(at 371.602 226.568 0)
+			(at 315.722 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9829,7 +10137,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 375.92 224.7899 0)
+			(at 320.04 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9840,7 +10148,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
-			(at 373.38 223.52 0)
+			(at 317.5 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,7 +10159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 223.52 0)
+			(at 317.5 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9862,7 +10170,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 373.38 223.52 0)
+			(at 317.5 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16185,8 +16493,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Vdrive")
-		(at 257.81 67.31 0)
+		(lib_id "power:+3.3V")
+		(at 114.3 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16195,9 +16503,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2b455f0-0ea7-4fa7-bcdf-c70544515897")
-		(property "Reference" "#PWR046"
-			(at 257.81 71.12 0)
+		(uuid "b7f2c726-90bb-41bb-b013-8588e7aa9e02")
+		(property "Reference" "#PWR096"
+			(at 114.3 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16207,8 +16515,8 @@
 				)
 			)
 		)
-		(property "Value" "Vdrive"
-			(at 257.81 62.23 0)
+		(property "Value" "+3.3V"
+			(at 114.3 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16218,7 +16526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 67.31 0)
+			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,7 +16537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 67.31 0)
+			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16239,9 +16547,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
-			(at 257.81 67.31 0)
-			(hide yes)
+		(property "Description" ""
+			(at 114.3 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16251,12 +16558,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "934c4a4f-b270-4b21-b0fe-d66b1b792178")
+			(uuid "6e41c579-abc2-4554-92bd-017e46767f46")
 		)
 		(instances
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/7be09983-144f-4bac-af55-89c406995975"
-					(reference "#PWR046")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -17382,7 +17689,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 373.38 210.82 0)
+		(at 317.5 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17392,7 +17699,7 @@
 		(dnp no)
 		(uuid "d292bd16-d33a-47f9-a6bc-0c89fed1f8d0")
 		(property "Reference" "J2"
-			(at 372.364 213.614 0)
+			(at 316.484 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17403,7 +17710,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 375.92 212.0899 0)
+			(at 320.04 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17414,7 +17721,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
-			(at 373.38 210.82 0)
+			(at 317.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17425,7 +17732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 210.82 0)
+			(at 317.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17436,7 +17743,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 373.38 210.82 0)
+			(at 317.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17460,7 +17767,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 373.38 217.17 0)
+		(at 317.5 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17470,7 +17777,7 @@
 		(dnp no)
 		(uuid "d29e9208-39be-47d6-a152-6927c994924e")
 		(property "Reference" "J12"
-			(at 371.602 220.218 0)
+			(at 315.722 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17481,7 +17788,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 375.92 218.4399 0)
+			(at 320.04 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17492,7 +17799,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
-			(at 373.38 217.17 0)
+			(at 317.5 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17503,7 +17810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 217.17 0)
+			(at 317.5 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17514,7 +17821,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 373.38 217.17 0)
+			(at 317.5 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19542,7 +19849,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,22Ω")
-		(at 152.4 135.89 90)
+		(at 107.95 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19552,7 +19859,7 @@
 		(dnp no)
 		(uuid "ef658ebb-1149-4d5c-a74b-98203d560e8d")
 		(property "Reference" "R59"
-			(at 157.226 134.62 90)
+			(at 107.95 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19562,7 +19869,7 @@
 			)
 		)
 		(property "Value" "22Ω"
-			(at 152.4 135.89 90)
+			(at 107.95 135.89 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19572,7 +19879,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 152.4 137.668 90)
+			(at 107.95 137.668 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19583,7 +19890,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19594,7 +19901,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 22Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19605,7 +19912,7 @@
 			)
 		)
 		(property "LCSC" "C23345"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19616,7 +19923,7 @@
 			)
 		)
 		(property "Stock" "4414856"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19627,7 +19934,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19638,7 +19945,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19649,7 +19956,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19660,7 +19967,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19671,7 +19978,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19682,7 +19989,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19693,7 +20000,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19704,7 +20011,7 @@
 			)
 		)
 		(property "Part" "0603WAF220JT5E"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19715,7 +20022,7 @@
 			)
 		)
 		(property "Resistance" "22Ω"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19726,7 +20033,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19737,7 +20044,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19748,7 +20055,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19759,7 +20066,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19770,7 +20077,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19781,7 +20088,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 152.4 135.89 0)
+			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
