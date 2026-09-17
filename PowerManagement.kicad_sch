@@ -7276,11 +7276,13 @@
 		)
 		(property "LCSC" "C431092"
 			(at 63.5 39.3701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8595,11 +8597,13 @@
 		)
 		(property "LCSC" "C96920"
 			(at 170.18 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9181,11 +9185,13 @@
 		)
 		(property "LCSC" "C49375238"
 			(at 140.97 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

@@ -3270,16 +3270,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Dummy Footprint. (To get the encoder placed on the front side)"
-		(exclude_from_sim no)
-		(at 231.902 42.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "681fc16b-1919-49b3-91e7-56203938bbd6")
-	)
 	(junction
 		(at 76.2 166.37)
 		(diameter 0)
@@ -3321,62 +3311,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acf6f989-476d-4d63-a8a4-6374c8025414")
-	)
-	(no_connect
-		(at 228.6 73.66)
-		(uuid "02f9c9e7-3a2f-4730-b3b5-8326698bfa86")
-	)
-	(no_connect
-		(at 215.9 68.58)
-		(uuid "1b7c53a3-09e9-4a74-898b-c673caae71fd")
-	)
-	(no_connect
-		(at 241.3 53.34)
-		(uuid "21fa64ed-ef36-449e-bbd8-beb2cd9e8e87")
-	)
-	(no_connect
-		(at 241.3 66.04)
-		(uuid "2eb80add-9873-4620-948d-3168e41b84bd")
-	)
-	(no_connect
-		(at 215.9 58.42)
-		(uuid "36429989-eb9d-46ad-bfa7-064737e62da9")
-	)
-	(no_connect
-		(at 241.3 55.88)
-		(uuid "519a4541-963c-4d04-b397-b72c87ebdb45")
-	)
-	(no_connect
-		(at 215.9 53.34)
-		(uuid "9b07f5ad-8d20-4757-9166-4fede17a7531")
-	)
-	(no_connect
-		(at 215.9 60.96)
-		(uuid "a315d882-671c-4394-9558-a2c135396199")
-	)
-	(no_connect
-		(at 241.3 68.58)
-		(uuid "ab6c433a-13fe-4c37-b129-73ec871313a6")
-	)
-	(no_connect
-		(at 228.6 48.26)
-		(uuid "b51ff5c0-78c4-44b5-8c00-9556eef528b8")
-	)
-	(no_connect
-		(at 215.9 66.04)
-		(uuid "c57cf7ec-6729-4dc6-8821-cc9172f002da")
-	)
-	(no_connect
-		(at 241.3 63.5)
-		(uuid "e5226599-baea-4038-b291-8250729b2fff")
-	)
-	(no_connect
-		(at 241.3 58.42)
-		(uuid "ef96db32-5474-4d6b-8e53-08e711ccd075")
-	)
-	(no_connect
-		(at 215.9 55.88)
-		(uuid "f2ec73fa-54e7-44b7-bdc3-7ff44934937f")
 	)
 	(wire
 		(pts
@@ -5088,11 +5022,13 @@
 		)
 		(property "LCSC" "C55112284"
 			(at 143.1133 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6462,11 +6398,13 @@
 		)
 		(property "LCSC" "C225127"
 			(at 43.18 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6564,133 +6502,6 @@
 			(project "PiccoloMotorDriver"
 				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/b5037c4c-8129-4a92-a0a6-b41a7050a316"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Magnetic:AS5047D")
-		(at 228.6 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68f61502-b794-49d7-8272-2de4e770fef8")
-		(property "Reference" "U8"
-			(at 230.7433 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AS5047D"
-			(at 230.7433 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf"
-			(at 209.55 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "On-Axis Magnetic Position Sensor, 14-bit, PWM Output, ABI Output, UVW Output, SPI Interface, TSSOP-14"
-			(at 228.6 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C55112284"
-			(at 230.7433 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51ba5004-7807-498d-97e2-303420ca993d")
-		)
-		(pin "13"
-			(uuid "6942e512-6e6e-4cd8-a72a-3b33ed6cbe0e")
-		)
-		(pin "6"
-			(uuid "cd8ce676-3218-41ed-8a44-54146e84d0b9")
-		)
-		(pin "1"
-			(uuid "726baf54-8f2f-4670-a152-0233513ad8a8")
-		)
-		(pin "12"
-			(uuid "503d6b9d-68b0-40ee-9cfd-3147581d7f8e")
-		)
-		(pin "8"
-			(uuid "085546d8-dc52-4069-9463-58f9db58dcdf")
-		)
-		(pin "14"
-			(uuid "ea903a47-aca6-4b7a-8e4c-ea1f7617f7de")
-		)
-		(pin "7"
-			(uuid "b72766b2-aec7-4c84-9a72-ae16154850c4")
-		)
-		(pin "10"
-			(uuid "2f6c2930-5491-41bc-abad-5b6cab154491")
-		)
-		(pin "9"
-			(uuid "3ac4f992-2922-4751-98b0-da203453b8c6")
-		)
-		(pin "5"
-			(uuid "bed05602-4669-46e8-b99e-4e86f3f00c5c")
-		)
-		(pin "4"
-			(uuid "7ea0f5f1-e2ba-4b00-b29b-17da9eb83d42")
-		)
-		(pin "3"
-			(uuid "696681bd-20b7-478f-a551-ced78a4aa3a7")
-		)
-		(pin "11"
-			(uuid "04c56cd0-d901-4384-97b8-4ce45dbac8bf")
-		)
-		(instances
-			(project "PiccoloMotorDriver"
-				(path "/cc8a13e7-b1a6-4cbd-adcd-4feb8b2e2369/b5037c4c-8129-4a92-a0a6-b41a7050a316"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7105,11 +6916,13 @@
 		)
 		(property "LCSC" "C225127"
 			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

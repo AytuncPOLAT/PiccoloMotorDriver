@@ -16034,11 +16034,13 @@
 		)
 		(property "LCSC" "C730142"
 			(at 102.362 230.378 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "27"
@@ -19871,11 +19873,13 @@
 		)
 		(property "LCSC" "C730142"
 			(at 268.224 57.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "27"
@@ -20908,11 +20912,13 @@
 		)
 		(property "LCSC" "C730142"
 			(at 269.494 151.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "27"
